@@ -1,5 +1,4 @@
 # JDaoust_project
-Exercice - week1
 
 HI! I'm a PhD student at Université Laval in Quebec city. My background is in nursing and cognitive neuroscience. I did my master degree on white matter integrity changes in obesity. Now, I'm working on structural and functional brain changes after weight loss intervention, such as bariatric surgery and restrictive diet. For the brainhack school, I would like to analyzed fMRI data.
 
