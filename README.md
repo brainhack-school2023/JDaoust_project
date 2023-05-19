@@ -4,7 +4,7 @@
 ---
 ### My bio
 
-HI! I'm a PhD student at Université Laval in Quebec city. My background is in nursing and cognitive neuroscience. I did my master degree on white matter integrity changes in obesity. Now, I'm working on structural and functional brain changes after weight loss intervention, such as bariatric surgery and restrictive diet. For the brainhack school, I would like to analyzed fMRI data.
+HI! I'm a PhD student at Université Laval in Quebec city. My background is in nursing and cognitive neuroscience. I did my master degree on white matter integrity changes in obesity. Now, I'm working on structural and functional brain changes after weight loss intervention, such as bariatric surgery and restrictive diet. For the brainhack school, I would like to analyze the fMRI food cue reactivity to snack images dataset.
 
 
 <a href="https://github.com/JustineD56">
