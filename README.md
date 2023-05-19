@@ -1,8 +1,8 @@
 # JDaoust_project
-
-##Impact of weight loss on fMRI food cue reactivity
-
-###My bio
+---
+## Impact of weight loss on fMRI food cue reactivity
+---
+### My bio
 
 HI! I'm a PhD student at Université Laval in Quebec city. My background is in nursing and cognitive neuroscience. I did my master degree on white matter integrity changes in obesity. Now, I'm working on structural and functional brain changes after weight loss intervention, such as bariatric surgery and restrictive diet. For the brainhack school, I would like to analyzed fMRI data.
 
@@ -12,18 +12,18 @@ HI! I'm a PhD student at Université Laval in Quebec city. My background is in n
    <br /><sub><b>JustineD</b></sub>
 </a>
 
-###Short description
+### Short description
 
-###Tools
+### Tools
 
-###Data
+### Data
 
-###Methods
+### Methods
 
-###Results
+### Results
 
-###Conclusion
+### Conclusion
 
-###Acknowledgement
+### Acknowledgement
 
-###References
+### References
