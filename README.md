@@ -23,6 +23,12 @@ Python and Jupyter notebooks package such as nilearn and scikit-learn
 ### Data
 Dataset was collected from 2016 to now at Quebec Heart and Lungs Institute. Ninety-four participants with severe obesity scheduled to undergo bariatric surgery were recruited. Participants were scanned prior to, 4, 12 and 24 months after bariatric surgery. For this project, T1 and three runs of fMRI with Becker-deGroot-Marshack auction task (duration: 10 minutes 27 seconds) will be used. Forty-five randomized images (15 high-sweet, 15 high-salt and 15 low caloric density) were presented to participants for 4 seconds. The auction part will not be evaluated in this project.
 
+### Project deliverables 
+Jupyter notebook scripts
+Figures to visualized my results 
+Use Github to put repository of my pipelines to do statistical analyses and visualization of results
+Used Alliance Canada on which I will be able to share and structure data and scripts
+
 ### Methods
 
 ### Results
