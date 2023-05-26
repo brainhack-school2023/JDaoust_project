@@ -16,18 +16,18 @@ HI! I'm a PhD student at Université Laval in Quebec city. My background is in n
 Neuroimaging is widely used to understand neurophysiological processes associated with obesity and responsiveness to weight loss interventions (Carnell et al. 2012). Functional MRI studies examining the food cue reactivity in obesity compared to lean individuals have shown BOLD differences in brain regions involved in energy regulation, cognitive control and reward valuation (Harding et al. 2018). These alterations may be implicated in the development of obesity, as well as a predictor of lower success in weight loss intervention (Hermann et al. 2019).  However, it is unclear if intervention targeting weight loss and cardiometabolic improvement, such as bariatric surgery, could reverse these alterations in brain functional reactivity to food cues. My project aims to identify brain regions that react to snacks images in individuals with severe obesity, and examine changes in food cue reactivity after weight loss induced by bariatric surgery.
 
 ### Tools
-Git and Github to share methods and results
-Alliance Canada for executing first level of analyses
-Python and Jupyter notebooks package such as nilearn and scikit-learn
+1) Git and Github to share methods and results;
+2) Alliance Canada for executing first level of analyses; 
+3) Python and Jupyter notebooks package such as nilearn and scikit-learn.
 
 ### Data
 Dataset was collected from 2016 to now at Quebec Heart and Lungs Institute. Ninety-four participants with severe obesity scheduled to undergo bariatric surgery were recruited. Participants were scanned prior to, 4, 12 and 24 months after bariatric surgery. For this project, T1 and three runs of fMRI with Becker-deGroot-Marshack auction task (duration: 10 minutes 27 seconds) will be used. Forty-five randomized images (15 high-sweet, 15 high-salt and 15 low caloric density) were presented to participants for 4 seconds. The auction part will not be evaluated in this project.
 
 ### Project deliverables 
-Jupyter notebook scripts
-Figures to visualized my results 
-Use Github to put repository of my pipelines to do statistical analyses and visualization of results
-Used Alliance Canada on which I will be able to share and structure data and scripts
+1) Jupyter notebook scripts;
+2) Figures to visualized my results; 
+3) Use Github to put repository of my pipelines to do statistical analyses and visualization of results;
+4) Used Alliance Canada on which I will be able to share and structure data and scripts.
 
 ### Methods
 
