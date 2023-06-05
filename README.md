@@ -1,4 +1,3 @@
-# JDaoust_project
 ---
 type: "project" # DON'T TOUCH THIS ! :)
 date: "2023-05-08" # Date you first upload your project.
@@ -28,7 +27,7 @@ image: ""
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
----
+## Project definition
 ### Background
 
 Neuroimaging is widely used to understand neurophysiological processes associated with obesity and responsiveness to weight loss interventions (Carnell et al. 2012). Functional MRI studies examining the food cue reactivity in obesity compared to lean individuals have shown BOLD differences in brain regions involved in energy regulation, cognitive control and reward valuation (Harding et al. 2018). These alterations may be implicated in the development of obesity, as well as a predictor of lower success in weight loss intervention (Hermann et al. 2019).  However, it is unclear if intervention targeting weight loss and cardiometabolic improvement, such as bariatric surgery, could reverse these alterations in brain functional reactivity to food cues. My project aims to identify brain regions that react to snacks images in individuals with severe obesity, and examine changes in food cue reactivity after weight loss induced by bariatric surgery.
