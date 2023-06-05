@@ -5,7 +5,7 @@ date: "2023-05-08" # Date you first upload your project.
 title: "Impact of weight loss on fMRI food cue reactivity"
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
-names: [Justine Daoust, Andréanne Michaud]
+names: [Justine Daoust]
 
 # Your project GitHub repository URL
 github_repo: https://github.com/brainhack-school2023/JDaoust_project.git
