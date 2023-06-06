@@ -1,0 +1,7 @@
+{
+  "RepetitionTime": 2.75,
+  "Resolution": "Template MNI152NLin2009cAsym (2.0x2.0x2.0 mm^3), curated by TemplateFlow 23.0.0",
+  "SkullStripped": false,
+  "SliceTimingCorrected": false,
+  "TaskName": "BDM"
+}
