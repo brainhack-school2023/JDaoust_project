@@ -8,7 +8,7 @@ Study date:
 
 Known Issues
 ------------
-Difficulties to convert dicom into nifti with dcm2niix (convert in 3D inseatd of 4D)
+Problem with the convertion of dicom into nifti with dcm2niix (convert in 3D instead of 4D)
 
 
 Where to discuss the dataset
