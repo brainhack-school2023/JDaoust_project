@@ -1,0 +1,1380 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.12: http://docutils.sourceforge.net/" />
+<title></title>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<style type="text/css">
+.sub-report-title {}
+.run-title {}
+
+h1 { padding-top: 35px; }
+h2 { padding-top: 20px; }
+h3 { padding-top: 15px; }
+
+.elem-desc {}
+.elem-caption {
+    margin-top: 15px
+    margin-bottom: 0;
+}
+.elem-filename {}
+
+div.elem-image {
+  width: 100%;
+  page-break-before:always;
+}
+
+.elem-image object.svg-reportlet {
+    width: 100%;
+    padding-bottom: 5px;
+}
+body {
+    padding: 65px 10px 10px;
+}
+
+.boiler-html {
+    font-family: "Bitstream Charter", "Georgia", Times;
+    margin: 20px 25px;
+    padding: 10px;
+    background-color: #F8F9FA;
+}
+
+div#boilerplate pre {
+    margin: 20px 25px;
+    padding: 10px;
+    background-color: #F8F9FA;
+}
+
+#errors div, #errors p {
+    padding-left: 1em;
+}
+</style>
+</head>
+<body>
+
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+<div class="collapse navbar-collapse">
+    <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#Summary">Summary</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Anatomical">Anatomical</a></li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarFunctional" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Functional</a>
+            <div class="dropdown-menu" aria-labelledby="navbarFunctional">
+                    <a class="dropdown-item" href="#acquisition-None_datatype-figures_desc-summary_run-1_session-1_suffix-bold_task-BDM">Reports for: session <span class="bids-entity">1</span>, task <span class="bids-entity">BDM</span>, run <span class="bids-entity">1</span>.</a>
+                    <a class="dropdown-item" href="#acquisition-None_datatype-figures_desc-summary_run-2_session-1_suffix-bold_task-BDM">Reports for: session <span class="bids-entity">1</span>, task <span class="bids-entity">BDM</span>, run <span class="bids-entity">2</span>.</a>
+                    <a class="dropdown-item" href="#acquisition-None_datatype-figures_desc-summary_run-3_session-1_suffix-bold_task-BDM">Reports for: session <span class="bids-entity">1</span>, task <span class="bids-entity">BDM</span>, run <span class="bids-entity">3</span>.</a>
+                    <a class="dropdown-item" href="#acquisition-longtr_datatype-figures_desc-summary_run-None_session-1_suffix-bold_task-rest">Reports for: session <span class="bids-entity">1</span>, task <span class="bids-entity">rest</span>, acquisition <span class="bids-entity">longtr</span>.</a>
+                    <a class="dropdown-item" href="#acquisition-None_datatype-figures_desc-summary_run-1_session-2_suffix-bold_task-BDM">Reports for: session <span class="bids-entity">2</span>, task <span class="bids-entity">BDM</span>, run <span class="bids-entity">1</span>.</a>
+                    <a class="dropdown-item" href="#acquisition-None_datatype-figures_desc-summary_run-2_session-2_suffix-bold_task-BDM">Reports for: session <span class="bids-entity">2</span>, task <span class="bids-entity">BDM</span>, run <span class="bids-entity">2</span>.</a>
+                    <a class="dropdown-item" href="#acquisition-None_datatype-figures_desc-summary_run-3_session-2_suffix-bold_task-BDM">Reports for: session <span class="bids-entity">2</span>, task <span class="bids-entity">BDM</span>, run <span class="bids-entity">3</span>.</a>
+                    <a class="dropdown-item" href="#acquisition-longtr_datatype-figures_desc-summary_run-None_session-2_suffix-bold_task-rest">Reports for: session <span class="bids-entity">2</span>, task <span class="bids-entity">rest</span>, acquisition <span class="bids-entity">longtr</span>.</a>
+                    <a class="dropdown-item" href="#acquisition-None_datatype-figures_desc-summary_run-1_session-3_suffix-bold_task-BDM">Reports for: session <span class="bids-entity">3</span>, task <span class="bids-entity">BDM</span>, run <span class="bids-entity">1</span>.</a>
+                    <a class="dropdown-item" href="#acquisition-None_datatype-figures_desc-summary_run-2_session-3_suffix-bold_task-BDM">Reports for: session <span class="bids-entity">3</span>, task <span class="bids-entity">BDM</span>, run <span class="bids-entity">2</span>.</a>
+                    <a class="dropdown-item" href="#acquisition-None_datatype-figures_desc-summary_run-3_session-3_suffix-bold_task-BDM">Reports for: session <span class="bids-entity">3</span>, task <span class="bids-entity">BDM</span>, run <span class="bids-entity">3</span>.</a>
+                    <a class="dropdown-item" href="#acquisition-longtr_datatype-figures_desc-summary_run-None_session-3_suffix-bold_task-rest">Reports for: session <span class="bids-entity">3</span>, task <span class="bids-entity">rest</span>, acquisition <span class="bids-entity">longtr</span>.</a>
+                    <a class="dropdown-item" href="#acquisition-None_datatype-figures_desc-summary_run-1_session-4_suffix-bold_task-BDM">Reports for: session <span class="bids-entity">4</span>, task <span class="bids-entity">BDM</span>, run <span class="bids-entity">1</span>.</a>
+                    <a class="dropdown-item" href="#acquisition-None_datatype-figures_desc-summary_run-2_session-4_suffix-bold_task-BDM">Reports for: session <span class="bids-entity">4</span>, task <span class="bids-entity">BDM</span>, run <span class="bids-entity">2</span>.</a>
+                    <a class="dropdown-item" href="#acquisition-None_datatype-figures_desc-summary_run-3_session-4_suffix-bold_task-BDM">Reports for: session <span class="bids-entity">4</span>, task <span class="bids-entity">BDM</span>, run <span class="bids-entity">3</span>.</a>
+                    <a class="dropdown-item" href="#acquisition-longtr_datatype-figures_desc-summary_run-None_session-4_suffix-bold_task-rest">Reports for: session <span class="bids-entity">4</span>, task <span class="bids-entity">rest</span>, acquisition <span class="bids-entity">longtr</span>.</a>
+            </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#boilerplate">Methods</a></li>
+        <li class="nav-item"><a class="nav-link" href="#errors">Errors</a></li>
+    </ul>
+</div>
+</nav>
+<noscript>
+    <h1 class="text-danger"> The navigation menu uses Javascript. Without it this report might not work as expected </h1>
+</noscript>
+
+    <div id="Summary">
+    <h1 class="sub-report-title">Summary</h1>
+        <div id="datatype-figures_desc-summary_suffix-T1w">
+                    <ul class="elem-desc">
+		<li>Subject ID: RND050</li>
+		<li>Structural images: 4 T1-weighted </li>
+		<li>Functional series: 16</li>
+		<ul class="elem-desc">
+			<li>Task: BDM (12 runs)</li>
+			<li>Task: rest (4 runs)</li>
+		</ul>
+		<li>Standard output spaces: MNI152NLin2009cAsym</li>
+		<li>Non-standard output spaces: </li>
+		<li>FreeSurfer reconstruction: Not run</li>
+	</ul>
+        </div>
+    </div>
+    <div id="Anatomical">
+    <h1 class="sub-report-title">Anatomical</h1>
+        <div id="datatype-figures_desc-conform_extension-['.html']_suffix-T1w">
+                    <h3 class="elem-title">Anatomical Conformation</h3>
+		<ul class="elem-desc">
+			<li>Input T1w images: 4</li>
+			<li>Output orientation: RAS</li>
+			<li>Output dimensions: 176x288x288</li>
+			<li>Output voxel size: 1mm x 0.94mm x 0.94mm</li>
+			<li>Discarded images: 0</li>
+
+		</ul>
+        </div>
+        <div id="datatype-figures_suffix-dseg">
+<h3 class="run-title">Brain mask and brain tissue segmentation of the T1w</h3><p class="elem-caption">This panel shows the template T1-weighted image (if several T1w images were found), with contours delineating the detected brain mask and brain tissue segmentations.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_dseg.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_dseg.svg" target="_blank">sub-RND050/figures/sub-RND050_dseg.svg</a>
+</div>
+
+        </div>
+        <div id="datatype-figures_regex_search-True_space-.*_suffix-T1w">
+<h3 class="run-title">Spatial normalization of the anatomical T1w reference</h3><p class="elem-desc">Results of nonlinear alignment of the T1w reference one or more template space(s). Hover on the panels with the mouse pointer to transition between both spaces.</p><p class="elem-caption">Spatial normalization of the T1w image to the <code>MNI152NLin2009cAsym</code> template.</p>                    <object class="svg-reportlet" type="image/svg+xml" data="./sub-RND050/figures/sub-RND050_space-MNI152NLin2009cAsym_T1w.svg">
+Problem loading figure sub-RND050/figures/sub-RND050_space-MNI152NLin2009cAsym_T1w.svg. If the link below works, please try reloading the report in your browser.</object>
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_space-MNI152NLin2009cAsym_T1w.svg" target="_blank">sub-RND050/figures/sub-RND050_space-MNI152NLin2009cAsym_T1w.svg</a>
+</div>
+
+        </div>
+    </div>
+    <div id="Functional">
+    <h1 class="sub-report-title">Functional</h1>
+        <div id="acquisition-None_datatype-figures_desc-summary_run-1_session-1_suffix-bold_task-BDM">
+<h2 class="sub-report-group">Reports for: session <span class="bids-entity">1</span>, task <span class="bids-entity">BDM</span>, run <span class="bids-entity">1</span>.</h2>                    <details open>
+		<summary>Summary</summary>
+		<ul class="elem-desc">
+			<li>Original orientation: RAS</li>
+			<li>Repetition time (TR): 2.75s</li>
+			<li>Phase-encoding (PE) direction: Could not be determined - assuming Anterior-Posterior</li>
+			<li>Single-echo EPI sequence.</li>
+			<li>Slice timing correction: Not applied</li>
+			<li>Susceptibility distortion correction: None</li>
+			<li>Registration: FSL <code>flirt</code> with boundary-based registration (BBR) metric - 6 dof</li>
+			<li>Non-steady-state volumes: 0</li>
+		</ul>
+		</details>
+		<details>
+			<summary>Confounds collected</summary><br />
+			<p>global_signal, global_signal_derivative1, global_signal_derivative1_power2, global_signal_power2, csf, csf_derivative1, csf_derivative1_power2, csf_power2, white_matter, white_matter_derivative1, white_matter_derivative1_power2, white_matter_power2, csf_wm, tcompcor, std_dvars, dvars, framewise_displacement, rmsd, t_comp_cor_00, t_comp_cor_01, t_comp_cor_02, c_comp_cor_00, c_comp_cor_01, c_comp_cor_02, c_comp_cor_03, c_comp_cor_04, w_comp_cor_00, w_comp_cor_01, w_comp_cor_02, w_comp_cor_03, w_comp_cor_04, w_comp_cor_05, w_comp_cor_06, w_comp_cor_07, w_comp_cor_08, w_comp_cor_09, w_comp_cor_10, w_comp_cor_11, w_comp_cor_12, w_comp_cor_13, w_comp_cor_14, a_comp_cor_00, a_comp_cor_01, a_comp_cor_02, a_comp_cor_03, a_comp_cor_04, a_comp_cor_05, a_comp_cor_06, a_comp_cor_07, a_comp_cor_08, a_comp_cor_09, a_comp_cor_10, a_comp_cor_11, a_comp_cor_12, a_comp_cor_13, a_comp_cor_14, edge_comp_00, edge_comp_01, edge_comp_02, edge_comp_03, edge_comp_04, edge_comp_05, edge_comp_06, edge_comp_07, edge_comp_08, edge_comp_09, edge_comp_10, edge_comp_11, edge_comp_12, edge_comp_13, edge_comp_14, edge_comp_15, edge_comp_16, edge_comp_17, edge_comp_18, edge_comp_19, edge_comp_20, edge_comp_21, edge_comp_22, edge_comp_23, cosine00, cosine01, cosine02, cosine03, cosine04, cosine05, trans_x, trans_x_derivative1, trans_x_derivative1_power2, trans_x_power2, trans_y, trans_y_derivative1, trans_y_derivative1_power2, trans_y_power2, trans_z, trans_z_derivative1, trans_z_power2, trans_z_derivative1_power2, rot_x, rot_x_derivative1, rot_x_derivative1_power2, rot_x_power2, rot_y, rot_y_derivative1, rot_y_power2, rot_y_derivative1_power2, rot_z, rot_z_derivative1, rot_z_power2, rot_z_derivative1_power2, motion_outlier00, motion_outlier01, motion_outlier02, motion_outlier03, motion_outlier04, motion_outlier05, motion_outlier06.</p>
+		</details>
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-flirtbbr_run-1_session-1_suffix-bold_task-BDM">
+<h3 class="run-title">Alignment of functional and anatomical MRI data (surface driven)</h3><p class="elem-caption">FSL <code>flirt</code> was used to generate transformations from EPI-space to T1w-space - The white matter mask calculated with FSL <code>fast</code> (brain tissue segmentation) was used for BBR. Note that Nearest Neighbor interpolation is used in the reportlets in order to highlight potential spin-history and other artifacts, whereas final images are resampled using Lanczos interpolation.</p>                    <object class="svg-reportlet" type="image/svg+xml" data="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-1_desc-flirtbbr_bold.svg">
+Problem loading figure sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-1_desc-flirtbbr_bold.svg. If the link below works, please try reloading the report in your browser.</object>
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-1_desc-flirtbbr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-1_desc-flirtbbr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-rois_run-1_session-1_suffix-bold_task-BDM">
+<h3 class="run-title">Brain mask and (anatomical/temporal) CompCor ROIs</h3><p class="elem-caption">Brain mask calculated on the BOLD signal (red contour), along with the regions of interest (ROIs) used for the estimation of physiological and movement confounding components that can be then used as nuisance regressors in analysis.<br /> The <em>anatomical CompCor</em> ROI (magenta contour) is a mask combining CSF and WM (white-matter), where voxels containing a minimal partial volume of GM have been removed.<br /> The <em>temporal CompCor</em> ROI (blue contour) contains the top 2% most variable voxels within the brain mask.<br /> The <em>brain edge</em> (or <em>crown</em>) ROI (green contour) picks signals outside but close to the brain, which are decomposed into 24 principal components.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-1_desc-rois_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-1_desc-rois_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-1_desc-rois_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-compcorvar_run-1_session-1_suffix-bold_task-BDM">
+<h3 class="run-title">Variance explained by t/aCompCor components</h3><p class="elem-caption">The cumulative variance explained by the first k components of the <em>t/aCompCor</em> decomposition, plotted for all values of <em>k</em>. The number of components that must be included in the model in order to explain some fraction of variance in the decomposition mask can be used as a feature selection criterion for confound regression.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-1_desc-compcorvar_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-1_desc-compcorvar_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-1_desc-compcorvar_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-carpetplot_run-1_session-1_suffix-bold_task-BDM">
+<h3 class="run-title">BOLD Summary</h3><p class="elem-caption">Summary statistics are plotted, which may reveal trends or artifacts in the BOLD data. Global signals calculated within the whole-brain (GS), within the white-matter (WM) and within cerebro-spinal fluid (CSF) show the mean BOLD signal in their corresponding masks. DVARS and FD show the standardized DVARS and framewise-displacement measures for each time point.<br /> A carpet plot shows the time series for all voxels within the brain mask, or if <code>--cifti-output</code> was enabled, all grayordinates. See the figure legend for specific color mappings. "Ctx" = cortex, "Cb" = cerebellum, "WM" = white matter, "CSF" = cerebrospinal fluid. "d" and "s" prefixes indicate "deep" and "shallow" relative to the cortex. "Edge" indicates regions just outside the brain.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-1_desc-carpetplot_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-1_desc-carpetplot_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-1_desc-carpetplot_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-confoundcorr_run-1_session-1_suffix-bold_task-BDM">
+<h3 class="run-title">Correlations among nuisance regressors</h3><p class="elem-caption">Left: Heatmap summarizing the correlation structure among confound variables.
+(Cosine bases and PCA-derived CompCor components are inherently orthogonal.)
+Right: magnitude of the correlation between each confound time series and the
+mean global signal. Strong correlations might be indicative of partial volume
+effects and can inform decisions about feature orthogonalization prior to
+confound regression.
+</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-1_desc-confoundcorr_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-1_desc-confoundcorr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-1_desc-confoundcorr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-summary_run-2_session-1_suffix-bold_task-BDM">
+<h2 class="sub-report-group">Reports for: session <span class="bids-entity">1</span>, task <span class="bids-entity">BDM</span>, run <span class="bids-entity">2</span>.</h2>                    <details open>
+		<summary>Summary</summary>
+		<ul class="elem-desc">
+			<li>Original orientation: RAS</li>
+			<li>Repetition time (TR): 2.75s</li>
+			<li>Phase-encoding (PE) direction: Could not be determined - assuming Anterior-Posterior</li>
+			<li>Single-echo EPI sequence.</li>
+			<li>Slice timing correction: Not applied</li>
+			<li>Susceptibility distortion correction: None</li>
+			<li>Registration: FSL <code>flirt</code> with boundary-based registration (BBR) metric - 6 dof</li>
+			<li>Non-steady-state volumes: 0</li>
+		</ul>
+		</details>
+		<details>
+			<summary>Confounds collected</summary><br />
+			<p>global_signal, global_signal_derivative1, global_signal_derivative1_power2, global_signal_power2, csf, csf_derivative1, csf_derivative1_power2, csf_power2, white_matter, white_matter_derivative1, white_matter_derivative1_power2, white_matter_power2, csf_wm, tcompcor, std_dvars, dvars, framewise_displacement, rmsd, t_comp_cor_00, t_comp_cor_01, c_comp_cor_00, c_comp_cor_01, c_comp_cor_02, c_comp_cor_03, w_comp_cor_00, w_comp_cor_01, w_comp_cor_02, w_comp_cor_03, w_comp_cor_04, w_comp_cor_05, w_comp_cor_06, w_comp_cor_07, w_comp_cor_08, a_comp_cor_00, a_comp_cor_01, a_comp_cor_02, a_comp_cor_03, a_comp_cor_04, a_comp_cor_05, a_comp_cor_06, a_comp_cor_07, a_comp_cor_08, edge_comp_00, edge_comp_01, edge_comp_02, edge_comp_03, edge_comp_04, edge_comp_05, edge_comp_06, edge_comp_07, edge_comp_08, edge_comp_09, edge_comp_10, edge_comp_11, edge_comp_12, edge_comp_13, edge_comp_14, edge_comp_15, edge_comp_16, edge_comp_17, edge_comp_18, edge_comp_19, edge_comp_20, edge_comp_21, edge_comp_22, edge_comp_23, cosine00, cosine01, cosine02, cosine03, cosine04, cosine05, trans_x, trans_x_derivative1, trans_x_derivative1_power2, trans_x_power2, trans_y, trans_y_derivative1, trans_y_derivative1_power2, trans_y_power2, trans_z, trans_z_derivative1, trans_z_power2, trans_z_derivative1_power2, rot_x, rot_x_derivative1, rot_x_derivative1_power2, rot_x_power2, rot_y, rot_y_derivative1, rot_y_power2, rot_y_derivative1_power2, rot_z, rot_z_derivative1, rot_z_power2, rot_z_derivative1_power2, motion_outlier00, motion_outlier01, motion_outlier02, motion_outlier03, motion_outlier04, motion_outlier05, motion_outlier06, motion_outlier07, motion_outlier08, motion_outlier09, motion_outlier10, motion_outlier11, motion_outlier12, motion_outlier13, motion_outlier14, motion_outlier15, motion_outlier16, motion_outlier17.</p>
+		</details>
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-flirtbbr_run-2_session-1_suffix-bold_task-BDM">
+<h3 class="run-title">Alignment of functional and anatomical MRI data (surface driven)</h3><p class="elem-caption">FSL <code>flirt</code> was used to generate transformations from EPI-space to T1w-space - The white matter mask calculated with FSL <code>fast</code> (brain tissue segmentation) was used for BBR. Note that Nearest Neighbor interpolation is used in the reportlets in order to highlight potential spin-history and other artifacts, whereas final images are resampled using Lanczos interpolation.</p>                    <object class="svg-reportlet" type="image/svg+xml" data="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-2_desc-flirtbbr_bold.svg">
+Problem loading figure sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-2_desc-flirtbbr_bold.svg. If the link below works, please try reloading the report in your browser.</object>
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-2_desc-flirtbbr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-2_desc-flirtbbr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-rois_run-2_session-1_suffix-bold_task-BDM">
+<h3 class="run-title">Brain mask and (anatomical/temporal) CompCor ROIs</h3><p class="elem-caption">Brain mask calculated on the BOLD signal (red contour), along with the regions of interest (ROIs) used for the estimation of physiological and movement confounding components that can be then used as nuisance regressors in analysis.<br /> The <em>anatomical CompCor</em> ROI (magenta contour) is a mask combining CSF and WM (white-matter), where voxels containing a minimal partial volume of GM have been removed.<br /> The <em>temporal CompCor</em> ROI (blue contour) contains the top 2% most variable voxels within the brain mask.<br /> The <em>brain edge</em> (or <em>crown</em>) ROI (green contour) picks signals outside but close to the brain, which are decomposed into 24 principal components.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-2_desc-rois_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-2_desc-rois_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-2_desc-rois_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-compcorvar_run-2_session-1_suffix-bold_task-BDM">
+<h3 class="run-title">Variance explained by t/aCompCor components</h3><p class="elem-caption">The cumulative variance explained by the first k components of the <em>t/aCompCor</em> decomposition, plotted for all values of <em>k</em>. The number of components that must be included in the model in order to explain some fraction of variance in the decomposition mask can be used as a feature selection criterion for confound regression.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-2_desc-compcorvar_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-2_desc-compcorvar_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-2_desc-compcorvar_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-carpetplot_run-2_session-1_suffix-bold_task-BDM">
+<h3 class="run-title">BOLD Summary</h3><p class="elem-caption">Summary statistics are plotted, which may reveal trends or artifacts in the BOLD data. Global signals calculated within the whole-brain (GS), within the white-matter (WM) and within cerebro-spinal fluid (CSF) show the mean BOLD signal in their corresponding masks. DVARS and FD show the standardized DVARS and framewise-displacement measures for each time point.<br /> A carpet plot shows the time series for all voxels within the brain mask, or if <code>--cifti-output</code> was enabled, all grayordinates. See the figure legend for specific color mappings. "Ctx" = cortex, "Cb" = cerebellum, "WM" = white matter, "CSF" = cerebrospinal fluid. "d" and "s" prefixes indicate "deep" and "shallow" relative to the cortex. "Edge" indicates regions just outside the brain.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-2_desc-carpetplot_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-2_desc-carpetplot_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-2_desc-carpetplot_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-confoundcorr_run-2_session-1_suffix-bold_task-BDM">
+<h3 class="run-title">Correlations among nuisance regressors</h3><p class="elem-caption">Left: Heatmap summarizing the correlation structure among confound variables.
+(Cosine bases and PCA-derived CompCor components are inherently orthogonal.)
+Right: magnitude of the correlation between each confound time series and the
+mean global signal. Strong correlations might be indicative of partial volume
+effects and can inform decisions about feature orthogonalization prior to
+confound regression.
+</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-2_desc-confoundcorr_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-2_desc-confoundcorr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-2_desc-confoundcorr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-summary_run-3_session-1_suffix-bold_task-BDM">
+<h2 class="sub-report-group">Reports for: session <span class="bids-entity">1</span>, task <span class="bids-entity">BDM</span>, run <span class="bids-entity">3</span>.</h2>                    <details open>
+		<summary>Summary</summary>
+		<ul class="elem-desc">
+			<li>Original orientation: RAS</li>
+			<li>Repetition time (TR): 2.75s</li>
+			<li>Phase-encoding (PE) direction: Could not be determined - assuming Anterior-Posterior</li>
+			<li>Single-echo EPI sequence.</li>
+			<li>Slice timing correction: Not applied</li>
+			<li>Susceptibility distortion correction: None</li>
+			<li>Registration: FSL <code>flirt</code> with boundary-based registration (BBR) metric - 6 dof</li>
+			<li>Non-steady-state volumes: 0</li>
+		</ul>
+		</details>
+		<details>
+			<summary>Confounds collected</summary><br />
+			<p>global_signal, global_signal_derivative1, global_signal_derivative1_power2, global_signal_power2, csf, csf_derivative1, csf_derivative1_power2, csf_power2, white_matter, white_matter_derivative1, white_matter_derivative1_power2, white_matter_power2, csf_wm, tcompcor, std_dvars, dvars, framewise_displacement, rmsd, t_comp_cor_00, t_comp_cor_01, c_comp_cor_00, c_comp_cor_01, c_comp_cor_02, c_comp_cor_03, w_comp_cor_00, w_comp_cor_01, w_comp_cor_02, w_comp_cor_03, w_comp_cor_04, w_comp_cor_05, w_comp_cor_06, w_comp_cor_07, w_comp_cor_08, w_comp_cor_09, w_comp_cor_10, a_comp_cor_00, a_comp_cor_01, a_comp_cor_02, a_comp_cor_03, a_comp_cor_04, a_comp_cor_05, a_comp_cor_06, a_comp_cor_07, a_comp_cor_08, a_comp_cor_09, a_comp_cor_10, edge_comp_00, edge_comp_01, edge_comp_02, edge_comp_03, edge_comp_04, edge_comp_05, edge_comp_06, edge_comp_07, edge_comp_08, edge_comp_09, edge_comp_10, edge_comp_11, edge_comp_12, edge_comp_13, edge_comp_14, edge_comp_15, edge_comp_16, edge_comp_17, edge_comp_18, edge_comp_19, edge_comp_20, edge_comp_21, edge_comp_22, edge_comp_23, cosine00, cosine01, cosine02, cosine03, cosine04, cosine05, trans_x, trans_x_derivative1, trans_x_derivative1_power2, trans_x_power2, trans_y, trans_y_derivative1, trans_y_derivative1_power2, trans_y_power2, trans_z, trans_z_derivative1, trans_z_power2, trans_z_derivative1_power2, rot_x, rot_x_derivative1, rot_x_derivative1_power2, rot_x_power2, rot_y, rot_y_derivative1, rot_y_power2, rot_y_derivative1_power2, rot_z, rot_z_derivative1, rot_z_power2, rot_z_derivative1_power2, motion_outlier00, motion_outlier01, motion_outlier02, motion_outlier03, motion_outlier04, motion_outlier05, motion_outlier06, motion_outlier07, motion_outlier08, motion_outlier09, motion_outlier10, motion_outlier11, motion_outlier12, motion_outlier13, motion_outlier14, motion_outlier15, motion_outlier16, motion_outlier17, motion_outlier18, motion_outlier19, motion_outlier20, motion_outlier21, motion_outlier22, motion_outlier23, motion_outlier24, motion_outlier25, motion_outlier26, motion_outlier27, motion_outlier28.</p>
+		</details>
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-flirtbbr_run-3_session-1_suffix-bold_task-BDM">
+<h3 class="run-title">Alignment of functional and anatomical MRI data (surface driven)</h3><p class="elem-caption">FSL <code>flirt</code> was used to generate transformations from EPI-space to T1w-space - The white matter mask calculated with FSL <code>fast</code> (brain tissue segmentation) was used for BBR. Note that Nearest Neighbor interpolation is used in the reportlets in order to highlight potential spin-history and other artifacts, whereas final images are resampled using Lanczos interpolation.</p>                    <object class="svg-reportlet" type="image/svg+xml" data="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-3_desc-flirtbbr_bold.svg">
+Problem loading figure sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-3_desc-flirtbbr_bold.svg. If the link below works, please try reloading the report in your browser.</object>
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-3_desc-flirtbbr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-3_desc-flirtbbr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-rois_run-3_session-1_suffix-bold_task-BDM">
+<h3 class="run-title">Brain mask and (anatomical/temporal) CompCor ROIs</h3><p class="elem-caption">Brain mask calculated on the BOLD signal (red contour), along with the regions of interest (ROIs) used for the estimation of physiological and movement confounding components that can be then used as nuisance regressors in analysis.<br /> The <em>anatomical CompCor</em> ROI (magenta contour) is a mask combining CSF and WM (white-matter), where voxels containing a minimal partial volume of GM have been removed.<br /> The <em>temporal CompCor</em> ROI (blue contour) contains the top 2% most variable voxels within the brain mask.<br /> The <em>brain edge</em> (or <em>crown</em>) ROI (green contour) picks signals outside but close to the brain, which are decomposed into 24 principal components.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-3_desc-rois_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-3_desc-rois_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-3_desc-rois_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-compcorvar_run-3_session-1_suffix-bold_task-BDM">
+<h3 class="run-title">Variance explained by t/aCompCor components</h3><p class="elem-caption">The cumulative variance explained by the first k components of the <em>t/aCompCor</em> decomposition, plotted for all values of <em>k</em>. The number of components that must be included in the model in order to explain some fraction of variance in the decomposition mask can be used as a feature selection criterion for confound regression.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-3_desc-compcorvar_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-3_desc-compcorvar_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-3_desc-compcorvar_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-carpetplot_run-3_session-1_suffix-bold_task-BDM">
+<h3 class="run-title">BOLD Summary</h3><p class="elem-caption">Summary statistics are plotted, which may reveal trends or artifacts in the BOLD data. Global signals calculated within the whole-brain (GS), within the white-matter (WM) and within cerebro-spinal fluid (CSF) show the mean BOLD signal in their corresponding masks. DVARS and FD show the standardized DVARS and framewise-displacement measures for each time point.<br /> A carpet plot shows the time series for all voxels within the brain mask, or if <code>--cifti-output</code> was enabled, all grayordinates. See the figure legend for specific color mappings. "Ctx" = cortex, "Cb" = cerebellum, "WM" = white matter, "CSF" = cerebrospinal fluid. "d" and "s" prefixes indicate "deep" and "shallow" relative to the cortex. "Edge" indicates regions just outside the brain.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-3_desc-carpetplot_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-3_desc-carpetplot_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-3_desc-carpetplot_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-confoundcorr_run-3_session-1_suffix-bold_task-BDM">
+<h3 class="run-title">Correlations among nuisance regressors</h3><p class="elem-caption">Left: Heatmap summarizing the correlation structure among confound variables.
+(Cosine bases and PCA-derived CompCor components are inherently orthogonal.)
+Right: magnitude of the correlation between each confound time series and the
+mean global signal. Strong correlations might be indicative of partial volume
+effects and can inform decisions about feature orthogonalization prior to
+confound regression.
+</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-3_desc-confoundcorr_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-3_desc-confoundcorr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-1_task-BDM_run-3_desc-confoundcorr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-longtr_datatype-figures_desc-summary_run-None_session-1_suffix-bold_task-rest">
+<h2 class="sub-report-group">Reports for: session <span class="bids-entity">1</span>, task <span class="bids-entity">rest</span>, acquisition <span class="bids-entity">longtr</span>.</h2>                    <details open>
+		<summary>Summary</summary>
+		<ul class="elem-desc">
+			<li>Original orientation: LAS</li>
+			<li>Repetition time (TR): 2.75s</li>
+			<li>Phase-encoding (PE) direction: Could not be determined - assuming Anterior-Posterior</li>
+			<li>Single-echo EPI sequence.</li>
+			<li>Slice timing correction: Not applied</li>
+			<li>Susceptibility distortion correction: None</li>
+			<li>Registration: FSL <code>flirt</code> with boundary-based registration (BBR) metric - 6 dof</li>
+			<li>Non-steady-state volumes: 0</li>
+		</ul>
+		</details>
+		<details>
+			<summary>Confounds collected</summary><br />
+			<p>global_signal, global_signal_derivative1, global_signal_derivative1_power2, global_signal_power2, csf, csf_derivative1, csf_derivative1_power2, csf_power2, white_matter, white_matter_derivative1, white_matter_derivative1_power2, white_matter_power2, csf_wm, tcompcor, std_dvars, dvars, framewise_displacement, rmsd, t_comp_cor_00, t_comp_cor_01, c_comp_cor_00, c_comp_cor_01, c_comp_cor_02, c_comp_cor_03, c_comp_cor_04, w_comp_cor_00, w_comp_cor_01, w_comp_cor_02, w_comp_cor_03, w_comp_cor_04, w_comp_cor_05, w_comp_cor_06, w_comp_cor_07, w_comp_cor_08, w_comp_cor_09, w_comp_cor_10, w_comp_cor_11, w_comp_cor_12, w_comp_cor_13, w_comp_cor_14, w_comp_cor_15, a_comp_cor_00, a_comp_cor_01, a_comp_cor_02, a_comp_cor_03, a_comp_cor_04, a_comp_cor_05, a_comp_cor_06, a_comp_cor_07, a_comp_cor_08, a_comp_cor_09, a_comp_cor_10, a_comp_cor_11, a_comp_cor_12, a_comp_cor_13, a_comp_cor_14, a_comp_cor_15, edge_comp_00, edge_comp_01, edge_comp_02, edge_comp_03, edge_comp_04, edge_comp_05, edge_comp_06, edge_comp_07, edge_comp_08, edge_comp_09, edge_comp_10, edge_comp_11, edge_comp_12, edge_comp_13, edge_comp_14, edge_comp_15, edge_comp_16, edge_comp_17, edge_comp_18, edge_comp_19, edge_comp_20, edge_comp_21, edge_comp_22, edge_comp_23, cosine00, cosine01, cosine02, cosine03, cosine04, cosine05, cosine06, cosine07, trans_x, trans_x_derivative1, trans_x_derivative1_power2, trans_x_power2, trans_y, trans_y_derivative1, trans_y_derivative1_power2, trans_y_power2, trans_z, trans_z_derivative1, trans_z_power2, trans_z_derivative1_power2, rot_x, rot_x_derivative1, rot_x_derivative1_power2, rot_x_power2, rot_y, rot_y_derivative1, rot_y_power2, rot_y_derivative1_power2, rot_z, rot_z_derivative1, rot_z_power2, rot_z_derivative1_power2, motion_outlier00, motion_outlier01, motion_outlier02, motion_outlier03, motion_outlier04, motion_outlier05, motion_outlier06, motion_outlier07, motion_outlier08, motion_outlier09, motion_outlier10, motion_outlier11, motion_outlier12, motion_outlier13, motion_outlier14, motion_outlier15, motion_outlier16, motion_outlier17, motion_outlier18, motion_outlier19, motion_outlier20, motion_outlier21, motion_outlier22, motion_outlier23, motion_outlier24, motion_outlier25, motion_outlier26, motion_outlier27, motion_outlier28, motion_outlier29, motion_outlier30, motion_outlier31, motion_outlier32, motion_outlier33, motion_outlier34, motion_outlier35, motion_outlier36, motion_outlier37, motion_outlier38, motion_outlier39, motion_outlier40, motion_outlier41, motion_outlier42, motion_outlier43, motion_outlier44, motion_outlier45, motion_outlier46.</p>
+		</details>
+        </div>
+        <div id="acquisition-longtr_datatype-figures_desc-flirtbbr_run-None_session-1_suffix-bold_task-rest">
+<h3 class="run-title">Alignment of functional and anatomical MRI data (surface driven)</h3><p class="elem-caption">FSL <code>flirt</code> was used to generate transformations from EPI-space to T1w-space - The white matter mask calculated with FSL <code>fast</code> (brain tissue segmentation) was used for BBR. Note that Nearest Neighbor interpolation is used in the reportlets in order to highlight potential spin-history and other artifacts, whereas final images are resampled using Lanczos interpolation.</p>                    <object class="svg-reportlet" type="image/svg+xml" data="./sub-RND050/figures/sub-RND050_ses-1_task-rest_acq-longtr_desc-flirtbbr_bold.svg">
+Problem loading figure sub-RND050/figures/sub-RND050_ses-1_task-rest_acq-longtr_desc-flirtbbr_bold.svg. If the link below works, please try reloading the report in your browser.</object>
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-1_task-rest_acq-longtr_desc-flirtbbr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-1_task-rest_acq-longtr_desc-flirtbbr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-longtr_datatype-figures_desc-rois_run-None_session-1_suffix-bold_task-rest">
+<h3 class="run-title">Brain mask and (anatomical/temporal) CompCor ROIs</h3><p class="elem-caption">Brain mask calculated on the BOLD signal (red contour), along with the regions of interest (ROIs) used for the estimation of physiological and movement confounding components that can be then used as nuisance regressors in analysis.<br /> The <em>anatomical CompCor</em> ROI (magenta contour) is a mask combining CSF and WM (white-matter), where voxels containing a minimal partial volume of GM have been removed.<br /> The <em>temporal CompCor</em> ROI (blue contour) contains the top 2% most variable voxels within the brain mask.<br /> The <em>brain edge</em> (or <em>crown</em>) ROI (green contour) picks signals outside but close to the brain, which are decomposed into 24 principal components.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-1_task-rest_acq-longtr_desc-rois_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-1_task-rest_acq-longtr_desc-rois_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-1_task-rest_acq-longtr_desc-rois_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-longtr_datatype-figures_desc-compcorvar_run-None_session-1_suffix-bold_task-rest">
+<h3 class="run-title">Variance explained by t/aCompCor components</h3><p class="elem-caption">The cumulative variance explained by the first k components of the <em>t/aCompCor</em> decomposition, plotted for all values of <em>k</em>. The number of components that must be included in the model in order to explain some fraction of variance in the decomposition mask can be used as a feature selection criterion for confound regression.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-1_task-rest_acq-longtr_desc-compcorvar_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-1_task-rest_acq-longtr_desc-compcorvar_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-1_task-rest_acq-longtr_desc-compcorvar_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-longtr_datatype-figures_desc-carpetplot_run-None_session-1_suffix-bold_task-rest">
+<h3 class="run-title">BOLD Summary</h3><p class="elem-caption">Summary statistics are plotted, which may reveal trends or artifacts in the BOLD data. Global signals calculated within the whole-brain (GS), within the white-matter (WM) and within cerebro-spinal fluid (CSF) show the mean BOLD signal in their corresponding masks. DVARS and FD show the standardized DVARS and framewise-displacement measures for each time point.<br /> A carpet plot shows the time series for all voxels within the brain mask, or if <code>--cifti-output</code> was enabled, all grayordinates. See the figure legend for specific color mappings. "Ctx" = cortex, "Cb" = cerebellum, "WM" = white matter, "CSF" = cerebrospinal fluid. "d" and "s" prefixes indicate "deep" and "shallow" relative to the cortex. "Edge" indicates regions just outside the brain.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-1_task-rest_acq-longtr_desc-carpetplot_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-1_task-rest_acq-longtr_desc-carpetplot_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-1_task-rest_acq-longtr_desc-carpetplot_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-longtr_datatype-figures_desc-confoundcorr_run-None_session-1_suffix-bold_task-rest">
+<h3 class="run-title">Correlations among nuisance regressors</h3><p class="elem-caption">Left: Heatmap summarizing the correlation structure among confound variables.
+(Cosine bases and PCA-derived CompCor components are inherently orthogonal.)
+Right: magnitude of the correlation between each confound time series and the
+mean global signal. Strong correlations might be indicative of partial volume
+effects and can inform decisions about feature orthogonalization prior to
+confound regression.
+</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-1_task-rest_acq-longtr_desc-confoundcorr_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-1_task-rest_acq-longtr_desc-confoundcorr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-1_task-rest_acq-longtr_desc-confoundcorr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-summary_run-1_session-2_suffix-bold_task-BDM">
+<h2 class="sub-report-group">Reports for: session <span class="bids-entity">2</span>, task <span class="bids-entity">BDM</span>, run <span class="bids-entity">1</span>.</h2>                    <details open>
+		<summary>Summary</summary>
+		<ul class="elem-desc">
+			<li>Original orientation: RAS</li>
+			<li>Repetition time (TR): 2.75s</li>
+			<li>Phase-encoding (PE) direction: Could not be determined - assuming Anterior-Posterior</li>
+			<li>Single-echo EPI sequence.</li>
+			<li>Slice timing correction: Not applied</li>
+			<li>Susceptibility distortion correction: None</li>
+			<li>Registration: FSL <code>flirt</code> with boundary-based registration (BBR) metric - 6 dof</li>
+			<li>Non-steady-state volumes: 0</li>
+		</ul>
+		</details>
+		<details>
+			<summary>Confounds collected</summary><br />
+			<p>global_signal, global_signal_derivative1, global_signal_derivative1_power2, global_signal_power2, csf, csf_derivative1, csf_derivative1_power2, csf_power2, white_matter, white_matter_derivative1, white_matter_derivative1_power2, white_matter_power2, csf_wm, tcompcor, std_dvars, dvars, framewise_displacement, rmsd, t_comp_cor_00, t_comp_cor_01, t_comp_cor_02, c_comp_cor_00, c_comp_cor_01, c_comp_cor_02, c_comp_cor_03, c_comp_cor_04, c_comp_cor_05, c_comp_cor_06, w_comp_cor_00, w_comp_cor_01, w_comp_cor_02, w_comp_cor_03, w_comp_cor_04, w_comp_cor_05, w_comp_cor_06, w_comp_cor_07, w_comp_cor_08, w_comp_cor_09, w_comp_cor_10, w_comp_cor_11, w_comp_cor_12, w_comp_cor_13, w_comp_cor_14, w_comp_cor_15, w_comp_cor_16, w_comp_cor_17, w_comp_cor_18, w_comp_cor_19, w_comp_cor_20, w_comp_cor_21, w_comp_cor_22, w_comp_cor_23, w_comp_cor_24, w_comp_cor_25, w_comp_cor_26, w_comp_cor_27, w_comp_cor_28, w_comp_cor_29, w_comp_cor_30, w_comp_cor_31, w_comp_cor_32, a_comp_cor_00, a_comp_cor_01, a_comp_cor_02, a_comp_cor_03, a_comp_cor_04, a_comp_cor_05, a_comp_cor_06, a_comp_cor_07, a_comp_cor_08, a_comp_cor_09, a_comp_cor_10, a_comp_cor_11, a_comp_cor_12, a_comp_cor_13, a_comp_cor_14, a_comp_cor_15, a_comp_cor_16, a_comp_cor_17, a_comp_cor_18, a_comp_cor_19, a_comp_cor_20, a_comp_cor_21, a_comp_cor_22, a_comp_cor_23, a_comp_cor_24, a_comp_cor_25, a_comp_cor_26, a_comp_cor_27, a_comp_cor_28, a_comp_cor_29, a_comp_cor_30, a_comp_cor_31, edge_comp_00, edge_comp_01, edge_comp_02, edge_comp_03, edge_comp_04, edge_comp_05, edge_comp_06, edge_comp_07, edge_comp_08, edge_comp_09, edge_comp_10, edge_comp_11, edge_comp_12, edge_comp_13, edge_comp_14, edge_comp_15, edge_comp_16, edge_comp_17, edge_comp_18, edge_comp_19, edge_comp_20, edge_comp_21, edge_comp_22, edge_comp_23, cosine00, cosine01, cosine02, cosine03, cosine04, cosine05, trans_x, trans_x_derivative1, trans_x_derivative1_power2, trans_x_power2, trans_y, trans_y_derivative1, trans_y_derivative1_power2, trans_y_power2, trans_z, trans_z_derivative1, trans_z_power2, trans_z_derivative1_power2, rot_x, rot_x_derivative1, rot_x_derivative1_power2, rot_x_power2, rot_y, rot_y_derivative1, rot_y_power2, rot_y_derivative1_power2, rot_z, rot_z_derivative1, rot_z_power2, rot_z_derivative1_power2, motion_outlier00.</p>
+		</details>
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-flirtbbr_run-1_session-2_suffix-bold_task-BDM">
+<h3 class="run-title">Alignment of functional and anatomical MRI data (surface driven)</h3><p class="elem-caption">FSL <code>flirt</code> was used to generate transformations from EPI-space to T1w-space - The white matter mask calculated with FSL <code>fast</code> (brain tissue segmentation) was used for BBR. Note that Nearest Neighbor interpolation is used in the reportlets in order to highlight potential spin-history and other artifacts, whereas final images are resampled using Lanczos interpolation.</p>                    <object class="svg-reportlet" type="image/svg+xml" data="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-1_desc-flirtbbr_bold.svg">
+Problem loading figure sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-1_desc-flirtbbr_bold.svg. If the link below works, please try reloading the report in your browser.</object>
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-1_desc-flirtbbr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-1_desc-flirtbbr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-rois_run-1_session-2_suffix-bold_task-BDM">
+<h3 class="run-title">Brain mask and (anatomical/temporal) CompCor ROIs</h3><p class="elem-caption">Brain mask calculated on the BOLD signal (red contour), along with the regions of interest (ROIs) used for the estimation of physiological and movement confounding components that can be then used as nuisance regressors in analysis.<br /> The <em>anatomical CompCor</em> ROI (magenta contour) is a mask combining CSF and WM (white-matter), where voxels containing a minimal partial volume of GM have been removed.<br /> The <em>temporal CompCor</em> ROI (blue contour) contains the top 2% most variable voxels within the brain mask.<br /> The <em>brain edge</em> (or <em>crown</em>) ROI (green contour) picks signals outside but close to the brain, which are decomposed into 24 principal components.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-1_desc-rois_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-1_desc-rois_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-1_desc-rois_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-compcorvar_run-1_session-2_suffix-bold_task-BDM">
+<h3 class="run-title">Variance explained by t/aCompCor components</h3><p class="elem-caption">The cumulative variance explained by the first k components of the <em>t/aCompCor</em> decomposition, plotted for all values of <em>k</em>. The number of components that must be included in the model in order to explain some fraction of variance in the decomposition mask can be used as a feature selection criterion for confound regression.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-1_desc-compcorvar_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-1_desc-compcorvar_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-1_desc-compcorvar_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-carpetplot_run-1_session-2_suffix-bold_task-BDM">
+<h3 class="run-title">BOLD Summary</h3><p class="elem-caption">Summary statistics are plotted, which may reveal trends or artifacts in the BOLD data. Global signals calculated within the whole-brain (GS), within the white-matter (WM) and within cerebro-spinal fluid (CSF) show the mean BOLD signal in their corresponding masks. DVARS and FD show the standardized DVARS and framewise-displacement measures for each time point.<br /> A carpet plot shows the time series for all voxels within the brain mask, or if <code>--cifti-output</code> was enabled, all grayordinates. See the figure legend for specific color mappings. "Ctx" = cortex, "Cb" = cerebellum, "WM" = white matter, "CSF" = cerebrospinal fluid. "d" and "s" prefixes indicate "deep" and "shallow" relative to the cortex. "Edge" indicates regions just outside the brain.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-1_desc-carpetplot_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-1_desc-carpetplot_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-1_desc-carpetplot_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-confoundcorr_run-1_session-2_suffix-bold_task-BDM">
+<h3 class="run-title">Correlations among nuisance regressors</h3><p class="elem-caption">Left: Heatmap summarizing the correlation structure among confound variables.
+(Cosine bases and PCA-derived CompCor components are inherently orthogonal.)
+Right: magnitude of the correlation between each confound time series and the
+mean global signal. Strong correlations might be indicative of partial volume
+effects and can inform decisions about feature orthogonalization prior to
+confound regression.
+</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-1_desc-confoundcorr_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-1_desc-confoundcorr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-1_desc-confoundcorr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-summary_run-2_session-2_suffix-bold_task-BDM">
+<h2 class="sub-report-group">Reports for: session <span class="bids-entity">2</span>, task <span class="bids-entity">BDM</span>, run <span class="bids-entity">2</span>.</h2>                    <details open>
+		<summary>Summary</summary>
+		<ul class="elem-desc">
+			<li>Original orientation: RAS</li>
+			<li>Repetition time (TR): 2.75s</li>
+			<li>Phase-encoding (PE) direction: Could not be determined - assuming Anterior-Posterior</li>
+			<li>Single-echo EPI sequence.</li>
+			<li>Slice timing correction: Not applied</li>
+			<li>Susceptibility distortion correction: None</li>
+			<li>Registration: FSL <code>flirt</code> with boundary-based registration (BBR) metric - 6 dof</li>
+			<li>Non-steady-state volumes: 0</li>
+		</ul>
+		</details>
+		<details>
+			<summary>Confounds collected</summary><br />
+			<p>global_signal, global_signal_derivative1, global_signal_derivative1_power2, global_signal_power2, csf, csf_derivative1, csf_derivative1_power2, csf_power2, white_matter, white_matter_derivative1, white_matter_derivative1_power2, white_matter_power2, csf_wm, tcompcor, std_dvars, dvars, framewise_displacement, rmsd, t_comp_cor_00, t_comp_cor_01, t_comp_cor_02, c_comp_cor_00, c_comp_cor_01, c_comp_cor_02, c_comp_cor_03, c_comp_cor_04, c_comp_cor_05, c_comp_cor_06, w_comp_cor_00, w_comp_cor_01, w_comp_cor_02, w_comp_cor_03, w_comp_cor_04, w_comp_cor_05, w_comp_cor_06, w_comp_cor_07, w_comp_cor_08, w_comp_cor_09, w_comp_cor_10, w_comp_cor_11, w_comp_cor_12, w_comp_cor_13, w_comp_cor_14, w_comp_cor_15, w_comp_cor_16, w_comp_cor_17, w_comp_cor_18, w_comp_cor_19, w_comp_cor_20, w_comp_cor_21, w_comp_cor_22, w_comp_cor_23, w_comp_cor_24, w_comp_cor_25, w_comp_cor_26, w_comp_cor_27, w_comp_cor_28, w_comp_cor_29, a_comp_cor_00, a_comp_cor_01, a_comp_cor_02, a_comp_cor_03, a_comp_cor_04, a_comp_cor_05, a_comp_cor_06, a_comp_cor_07, a_comp_cor_08, a_comp_cor_09, a_comp_cor_10, a_comp_cor_11, a_comp_cor_12, a_comp_cor_13, a_comp_cor_14, a_comp_cor_15, a_comp_cor_16, a_comp_cor_17, a_comp_cor_18, a_comp_cor_19, a_comp_cor_20, a_comp_cor_21, a_comp_cor_22, a_comp_cor_23, a_comp_cor_24, a_comp_cor_25, a_comp_cor_26, a_comp_cor_27, a_comp_cor_28, a_comp_cor_29, edge_comp_00, edge_comp_01, edge_comp_02, edge_comp_03, edge_comp_04, edge_comp_05, edge_comp_06, edge_comp_07, edge_comp_08, edge_comp_09, edge_comp_10, edge_comp_11, edge_comp_12, edge_comp_13, edge_comp_14, edge_comp_15, edge_comp_16, edge_comp_17, edge_comp_18, edge_comp_19, edge_comp_20, edge_comp_21, edge_comp_22, edge_comp_23, cosine00, cosine01, cosine02, cosine03, cosine04, cosine05, trans_x, trans_x_derivative1, trans_x_derivative1_power2, trans_x_power2, trans_y, trans_y_derivative1, trans_y_derivative1_power2, trans_y_power2, trans_z, trans_z_derivative1, trans_z_power2, trans_z_derivative1_power2, rot_x, rot_x_derivative1, rot_x_derivative1_power2, rot_x_power2, rot_y, rot_y_derivative1, rot_y_power2, rot_y_derivative1_power2, rot_z, rot_z_derivative1, rot_z_power2, rot_z_derivative1_power2, motion_outlier00, motion_outlier01, motion_outlier02.</p>
+		</details>
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-flirtbbr_run-2_session-2_suffix-bold_task-BDM">
+<h3 class="run-title">Alignment of functional and anatomical MRI data (surface driven)</h3><p class="elem-caption">FSL <code>flirt</code> was used to generate transformations from EPI-space to T1w-space - The white matter mask calculated with FSL <code>fast</code> (brain tissue segmentation) was used for BBR. Note that Nearest Neighbor interpolation is used in the reportlets in order to highlight potential spin-history and other artifacts, whereas final images are resampled using Lanczos interpolation.</p>                    <object class="svg-reportlet" type="image/svg+xml" data="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-2_desc-flirtbbr_bold.svg">
+Problem loading figure sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-2_desc-flirtbbr_bold.svg. If the link below works, please try reloading the report in your browser.</object>
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-2_desc-flirtbbr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-2_desc-flirtbbr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-rois_run-2_session-2_suffix-bold_task-BDM">
+<h3 class="run-title">Brain mask and (anatomical/temporal) CompCor ROIs</h3><p class="elem-caption">Brain mask calculated on the BOLD signal (red contour), along with the regions of interest (ROIs) used for the estimation of physiological and movement confounding components that can be then used as nuisance regressors in analysis.<br /> The <em>anatomical CompCor</em> ROI (magenta contour) is a mask combining CSF and WM (white-matter), where voxels containing a minimal partial volume of GM have been removed.<br /> The <em>temporal CompCor</em> ROI (blue contour) contains the top 2% most variable voxels within the brain mask.<br /> The <em>brain edge</em> (or <em>crown</em>) ROI (green contour) picks signals outside but close to the brain, which are decomposed into 24 principal components.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-2_desc-rois_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-2_desc-rois_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-2_desc-rois_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-compcorvar_run-2_session-2_suffix-bold_task-BDM">
+<h3 class="run-title">Variance explained by t/aCompCor components</h3><p class="elem-caption">The cumulative variance explained by the first k components of the <em>t/aCompCor</em> decomposition, plotted for all values of <em>k</em>. The number of components that must be included in the model in order to explain some fraction of variance in the decomposition mask can be used as a feature selection criterion for confound regression.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-2_desc-compcorvar_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-2_desc-compcorvar_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-2_desc-compcorvar_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-carpetplot_run-2_session-2_suffix-bold_task-BDM">
+<h3 class="run-title">BOLD Summary</h3><p class="elem-caption">Summary statistics are plotted, which may reveal trends or artifacts in the BOLD data. Global signals calculated within the whole-brain (GS), within the white-matter (WM) and within cerebro-spinal fluid (CSF) show the mean BOLD signal in their corresponding masks. DVARS and FD show the standardized DVARS and framewise-displacement measures for each time point.<br /> A carpet plot shows the time series for all voxels within the brain mask, or if <code>--cifti-output</code> was enabled, all grayordinates. See the figure legend for specific color mappings. "Ctx" = cortex, "Cb" = cerebellum, "WM" = white matter, "CSF" = cerebrospinal fluid. "d" and "s" prefixes indicate "deep" and "shallow" relative to the cortex. "Edge" indicates regions just outside the brain.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-2_desc-carpetplot_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-2_desc-carpetplot_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-2_desc-carpetplot_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-confoundcorr_run-2_session-2_suffix-bold_task-BDM">
+<h3 class="run-title">Correlations among nuisance regressors</h3><p class="elem-caption">Left: Heatmap summarizing the correlation structure among confound variables.
+(Cosine bases and PCA-derived CompCor components are inherently orthogonal.)
+Right: magnitude of the correlation between each confound time series and the
+mean global signal. Strong correlations might be indicative of partial volume
+effects and can inform decisions about feature orthogonalization prior to
+confound regression.
+</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-2_desc-confoundcorr_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-2_desc-confoundcorr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-2_desc-confoundcorr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-summary_run-3_session-2_suffix-bold_task-BDM">
+<h2 class="sub-report-group">Reports for: session <span class="bids-entity">2</span>, task <span class="bids-entity">BDM</span>, run <span class="bids-entity">3</span>.</h2>                    <details open>
+		<summary>Summary</summary>
+		<ul class="elem-desc">
+			<li>Original orientation: RAS</li>
+			<li>Repetition time (TR): 2.75s</li>
+			<li>Phase-encoding (PE) direction: Could not be determined - assuming Anterior-Posterior</li>
+			<li>Single-echo EPI sequence.</li>
+			<li>Slice timing correction: Not applied</li>
+			<li>Susceptibility distortion correction: None</li>
+			<li>Registration: FSL <code>flirt</code> with boundary-based registration (BBR) metric - 6 dof</li>
+			<li>Non-steady-state volumes: 0</li>
+		</ul>
+		</details>
+		<details>
+			<summary>Confounds collected</summary><br />
+			<p>global_signal, global_signal_derivative1, global_signal_derivative1_power2, global_signal_power2, csf, csf_derivative1, csf_derivative1_power2, csf_power2, white_matter, white_matter_derivative1, white_matter_derivative1_power2, white_matter_power2, csf_wm, tcompcor, std_dvars, dvars, framewise_displacement, rmsd, t_comp_cor_00, t_comp_cor_01, t_comp_cor_02, c_comp_cor_00, c_comp_cor_01, c_comp_cor_02, c_comp_cor_03, c_comp_cor_04, c_comp_cor_05, c_comp_cor_06, w_comp_cor_00, w_comp_cor_01, w_comp_cor_02, w_comp_cor_03, w_comp_cor_04, w_comp_cor_05, w_comp_cor_06, w_comp_cor_07, w_comp_cor_08, w_comp_cor_09, w_comp_cor_10, w_comp_cor_11, w_comp_cor_12, w_comp_cor_13, w_comp_cor_14, w_comp_cor_15, w_comp_cor_16, w_comp_cor_17, w_comp_cor_18, w_comp_cor_19, w_comp_cor_20, w_comp_cor_21, w_comp_cor_22, w_comp_cor_23, w_comp_cor_24, w_comp_cor_25, w_comp_cor_26, w_comp_cor_27, w_comp_cor_28, w_comp_cor_29, w_comp_cor_30, w_comp_cor_31, w_comp_cor_32, w_comp_cor_33, a_comp_cor_00, a_comp_cor_01, a_comp_cor_02, a_comp_cor_03, a_comp_cor_04, a_comp_cor_05, a_comp_cor_06, a_comp_cor_07, a_comp_cor_08, a_comp_cor_09, a_comp_cor_10, a_comp_cor_11, a_comp_cor_12, a_comp_cor_13, a_comp_cor_14, a_comp_cor_15, a_comp_cor_16, a_comp_cor_17, a_comp_cor_18, a_comp_cor_19, a_comp_cor_20, a_comp_cor_21, a_comp_cor_22, a_comp_cor_23, a_comp_cor_24, a_comp_cor_25, a_comp_cor_26, a_comp_cor_27, a_comp_cor_28, a_comp_cor_29, a_comp_cor_30, a_comp_cor_31, a_comp_cor_32, a_comp_cor_33, edge_comp_00, edge_comp_01, edge_comp_02, edge_comp_03, edge_comp_04, edge_comp_05, edge_comp_06, edge_comp_07, edge_comp_08, edge_comp_09, edge_comp_10, edge_comp_11, edge_comp_12, edge_comp_13, edge_comp_14, edge_comp_15, edge_comp_16, edge_comp_17, edge_comp_18, edge_comp_19, edge_comp_20, edge_comp_21, edge_comp_22, edge_comp_23, cosine00, cosine01, cosine02, cosine03, cosine04, cosine05, trans_x, trans_x_derivative1, trans_x_derivative1_power2, trans_x_power2, trans_y, trans_y_derivative1, trans_y_derivative1_power2, trans_y_power2, trans_z, trans_z_derivative1, trans_z_power2, trans_z_derivative1_power2, rot_x, rot_x_derivative1, rot_x_derivative1_power2, rot_x_power2, rot_y, rot_y_derivative1, rot_y_power2, rot_y_derivative1_power2, rot_z, rot_z_derivative1, rot_z_power2, rot_z_derivative1_power2, motion_outlier00, motion_outlier01, motion_outlier02.</p>
+		</details>
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-flirtbbr_run-3_session-2_suffix-bold_task-BDM">
+<h3 class="run-title">Alignment of functional and anatomical MRI data (surface driven)</h3><p class="elem-caption">FSL <code>flirt</code> was used to generate transformations from EPI-space to T1w-space - The white matter mask calculated with FSL <code>fast</code> (brain tissue segmentation) was used for BBR. Note that Nearest Neighbor interpolation is used in the reportlets in order to highlight potential spin-history and other artifacts, whereas final images are resampled using Lanczos interpolation.</p>                    <object class="svg-reportlet" type="image/svg+xml" data="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-3_desc-flirtbbr_bold.svg">
+Problem loading figure sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-3_desc-flirtbbr_bold.svg. If the link below works, please try reloading the report in your browser.</object>
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-3_desc-flirtbbr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-3_desc-flirtbbr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-rois_run-3_session-2_suffix-bold_task-BDM">
+<h3 class="run-title">Brain mask and (anatomical/temporal) CompCor ROIs</h3><p class="elem-caption">Brain mask calculated on the BOLD signal (red contour), along with the regions of interest (ROIs) used for the estimation of physiological and movement confounding components that can be then used as nuisance regressors in analysis.<br /> The <em>anatomical CompCor</em> ROI (magenta contour) is a mask combining CSF and WM (white-matter), where voxels containing a minimal partial volume of GM have been removed.<br /> The <em>temporal CompCor</em> ROI (blue contour) contains the top 2% most variable voxels within the brain mask.<br /> The <em>brain edge</em> (or <em>crown</em>) ROI (green contour) picks signals outside but close to the brain, which are decomposed into 24 principal components.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-3_desc-rois_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-3_desc-rois_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-3_desc-rois_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-compcorvar_run-3_session-2_suffix-bold_task-BDM">
+<h3 class="run-title">Variance explained by t/aCompCor components</h3><p class="elem-caption">The cumulative variance explained by the first k components of the <em>t/aCompCor</em> decomposition, plotted for all values of <em>k</em>. The number of components that must be included in the model in order to explain some fraction of variance in the decomposition mask can be used as a feature selection criterion for confound regression.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-3_desc-compcorvar_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-3_desc-compcorvar_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-3_desc-compcorvar_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-carpetplot_run-3_session-2_suffix-bold_task-BDM">
+<h3 class="run-title">BOLD Summary</h3><p class="elem-caption">Summary statistics are plotted, which may reveal trends or artifacts in the BOLD data. Global signals calculated within the whole-brain (GS), within the white-matter (WM) and within cerebro-spinal fluid (CSF) show the mean BOLD signal in their corresponding masks. DVARS and FD show the standardized DVARS and framewise-displacement measures for each time point.<br /> A carpet plot shows the time series for all voxels within the brain mask, or if <code>--cifti-output</code> was enabled, all grayordinates. See the figure legend for specific color mappings. "Ctx" = cortex, "Cb" = cerebellum, "WM" = white matter, "CSF" = cerebrospinal fluid. "d" and "s" prefixes indicate "deep" and "shallow" relative to the cortex. "Edge" indicates regions just outside the brain.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-3_desc-carpetplot_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-3_desc-carpetplot_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-3_desc-carpetplot_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-confoundcorr_run-3_session-2_suffix-bold_task-BDM">
+<h3 class="run-title">Correlations among nuisance regressors</h3><p class="elem-caption">Left: Heatmap summarizing the correlation structure among confound variables.
+(Cosine bases and PCA-derived CompCor components are inherently orthogonal.)
+Right: magnitude of the correlation between each confound time series and the
+mean global signal. Strong correlations might be indicative of partial volume
+effects and can inform decisions about feature orthogonalization prior to
+confound regression.
+</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-3_desc-confoundcorr_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-3_desc-confoundcorr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-2_task-BDM_run-3_desc-confoundcorr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-longtr_datatype-figures_desc-summary_run-None_session-2_suffix-bold_task-rest">
+<h2 class="sub-report-group">Reports for: session <span class="bids-entity">2</span>, task <span class="bids-entity">rest</span>, acquisition <span class="bids-entity">longtr</span>.</h2>                    <details open>
+		<summary>Summary</summary>
+		<ul class="elem-desc">
+			<li>Original orientation: LAS</li>
+			<li>Repetition time (TR): 2.75s</li>
+			<li>Phase-encoding (PE) direction: Could not be determined - assuming Anterior-Posterior</li>
+			<li>Single-echo EPI sequence.</li>
+			<li>Slice timing correction: Not applied</li>
+			<li>Susceptibility distortion correction: None</li>
+			<li>Registration: FSL <code>flirt</code> with boundary-based registration (BBR) metric - 6 dof</li>
+			<li>Non-steady-state volumes: 0</li>
+		</ul>
+		</details>
+		<details>
+			<summary>Confounds collected</summary><br />
+			<p>global_signal, global_signal_derivative1, global_signal_derivative1_power2, global_signal_power2, csf, csf_derivative1, csf_derivative1_power2, csf_power2, white_matter, white_matter_derivative1, white_matter_derivative1_power2, white_matter_power2, csf_wm, tcompcor, std_dvars, dvars, framewise_displacement, rmsd, t_comp_cor_00, t_comp_cor_01, t_comp_cor_02, c_comp_cor_00, c_comp_cor_01, c_comp_cor_02, c_comp_cor_03, c_comp_cor_04, c_comp_cor_05, c_comp_cor_06, w_comp_cor_00, w_comp_cor_01, w_comp_cor_02, w_comp_cor_03, w_comp_cor_04, w_comp_cor_05, w_comp_cor_06, w_comp_cor_07, w_comp_cor_08, w_comp_cor_09, w_comp_cor_10, w_comp_cor_11, w_comp_cor_12, w_comp_cor_13, w_comp_cor_14, w_comp_cor_15, w_comp_cor_16, w_comp_cor_17, w_comp_cor_18, w_comp_cor_19, w_comp_cor_20, w_comp_cor_21, w_comp_cor_22, w_comp_cor_23, w_comp_cor_24, w_comp_cor_25, w_comp_cor_26, w_comp_cor_27, w_comp_cor_28, w_comp_cor_29, w_comp_cor_30, w_comp_cor_31, w_comp_cor_32, w_comp_cor_33, w_comp_cor_34, w_comp_cor_35, w_comp_cor_36, w_comp_cor_37, w_comp_cor_38, w_comp_cor_39, a_comp_cor_00, a_comp_cor_01, a_comp_cor_02, a_comp_cor_03, a_comp_cor_04, a_comp_cor_05, a_comp_cor_06, a_comp_cor_07, a_comp_cor_08, a_comp_cor_09, a_comp_cor_10, a_comp_cor_11, a_comp_cor_12, a_comp_cor_13, a_comp_cor_14, a_comp_cor_15, a_comp_cor_16, a_comp_cor_17, a_comp_cor_18, a_comp_cor_19, a_comp_cor_20, a_comp_cor_21, a_comp_cor_22, a_comp_cor_23, a_comp_cor_24, a_comp_cor_25, a_comp_cor_26, a_comp_cor_27, a_comp_cor_28, a_comp_cor_29, a_comp_cor_30, a_comp_cor_31, a_comp_cor_32, a_comp_cor_33, a_comp_cor_34, a_comp_cor_35, a_comp_cor_36, a_comp_cor_37, a_comp_cor_38, edge_comp_00, edge_comp_01, edge_comp_02, edge_comp_03, edge_comp_04, edge_comp_05, edge_comp_06, edge_comp_07, edge_comp_08, edge_comp_09, edge_comp_10, edge_comp_11, edge_comp_12, edge_comp_13, edge_comp_14, edge_comp_15, edge_comp_16, edge_comp_17, edge_comp_18, edge_comp_19, edge_comp_20, edge_comp_21, edge_comp_22, edge_comp_23, cosine00, cosine01, cosine02, cosine03, cosine04, cosine05, cosine06, cosine07, trans_x, trans_x_derivative1, trans_x_derivative1_power2, trans_x_power2, trans_y, trans_y_derivative1, trans_y_derivative1_power2, trans_y_power2, trans_z, trans_z_derivative1, trans_z_power2, trans_z_derivative1_power2, rot_x, rot_x_derivative1, rot_x_derivative1_power2, rot_x_power2, rot_y, rot_y_derivative1, rot_y_power2, rot_y_derivative1_power2, rot_z, rot_z_derivative1, rot_z_power2, rot_z_derivative1_power2, motion_outlier00, motion_outlier01, motion_outlier02, motion_outlier03, motion_outlier04, motion_outlier05.</p>
+		</details>
+        </div>
+        <div id="acquisition-longtr_datatype-figures_desc-flirtbbr_run-None_session-2_suffix-bold_task-rest">
+<h3 class="run-title">Alignment of functional and anatomical MRI data (surface driven)</h3><p class="elem-caption">FSL <code>flirt</code> was used to generate transformations from EPI-space to T1w-space - The white matter mask calculated with FSL <code>fast</code> (brain tissue segmentation) was used for BBR. Note that Nearest Neighbor interpolation is used in the reportlets in order to highlight potential spin-history and other artifacts, whereas final images are resampled using Lanczos interpolation.</p>                    <object class="svg-reportlet" type="image/svg+xml" data="./sub-RND050/figures/sub-RND050_ses-2_task-rest_acq-longtr_desc-flirtbbr_bold.svg">
+Problem loading figure sub-RND050/figures/sub-RND050_ses-2_task-rest_acq-longtr_desc-flirtbbr_bold.svg. If the link below works, please try reloading the report in your browser.</object>
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-2_task-rest_acq-longtr_desc-flirtbbr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-2_task-rest_acq-longtr_desc-flirtbbr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-longtr_datatype-figures_desc-rois_run-None_session-2_suffix-bold_task-rest">
+<h3 class="run-title">Brain mask and (anatomical/temporal) CompCor ROIs</h3><p class="elem-caption">Brain mask calculated on the BOLD signal (red contour), along with the regions of interest (ROIs) used for the estimation of physiological and movement confounding components that can be then used as nuisance regressors in analysis.<br /> The <em>anatomical CompCor</em> ROI (magenta contour) is a mask combining CSF and WM (white-matter), where voxels containing a minimal partial volume of GM have been removed.<br /> The <em>temporal CompCor</em> ROI (blue contour) contains the top 2% most variable voxels within the brain mask.<br /> The <em>brain edge</em> (or <em>crown</em>) ROI (green contour) picks signals outside but close to the brain, which are decomposed into 24 principal components.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-2_task-rest_acq-longtr_desc-rois_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-2_task-rest_acq-longtr_desc-rois_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-2_task-rest_acq-longtr_desc-rois_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-longtr_datatype-figures_desc-compcorvar_run-None_session-2_suffix-bold_task-rest">
+<h3 class="run-title">Variance explained by t/aCompCor components</h3><p class="elem-caption">The cumulative variance explained by the first k components of the <em>t/aCompCor</em> decomposition, plotted for all values of <em>k</em>. The number of components that must be included in the model in order to explain some fraction of variance in the decomposition mask can be used as a feature selection criterion for confound regression.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-2_task-rest_acq-longtr_desc-compcorvar_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-2_task-rest_acq-longtr_desc-compcorvar_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-2_task-rest_acq-longtr_desc-compcorvar_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-longtr_datatype-figures_desc-carpetplot_run-None_session-2_suffix-bold_task-rest">
+<h3 class="run-title">BOLD Summary</h3><p class="elem-caption">Summary statistics are plotted, which may reveal trends or artifacts in the BOLD data. Global signals calculated within the whole-brain (GS), within the white-matter (WM) and within cerebro-spinal fluid (CSF) show the mean BOLD signal in their corresponding masks. DVARS and FD show the standardized DVARS and framewise-displacement measures for each time point.<br /> A carpet plot shows the time series for all voxels within the brain mask, or if <code>--cifti-output</code> was enabled, all grayordinates. See the figure legend for specific color mappings. "Ctx" = cortex, "Cb" = cerebellum, "WM" = white matter, "CSF" = cerebrospinal fluid. "d" and "s" prefixes indicate "deep" and "shallow" relative to the cortex. "Edge" indicates regions just outside the brain.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-2_task-rest_acq-longtr_desc-carpetplot_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-2_task-rest_acq-longtr_desc-carpetplot_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-2_task-rest_acq-longtr_desc-carpetplot_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-longtr_datatype-figures_desc-confoundcorr_run-None_session-2_suffix-bold_task-rest">
+<h3 class="run-title">Correlations among nuisance regressors</h3><p class="elem-caption">Left: Heatmap summarizing the correlation structure among confound variables.
+(Cosine bases and PCA-derived CompCor components are inherently orthogonal.)
+Right: magnitude of the correlation between each confound time series and the
+mean global signal. Strong correlations might be indicative of partial volume
+effects and can inform decisions about feature orthogonalization prior to
+confound regression.
+</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-2_task-rest_acq-longtr_desc-confoundcorr_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-2_task-rest_acq-longtr_desc-confoundcorr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-2_task-rest_acq-longtr_desc-confoundcorr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-summary_run-1_session-3_suffix-bold_task-BDM">
+<h2 class="sub-report-group">Reports for: session <span class="bids-entity">3</span>, task <span class="bids-entity">BDM</span>, run <span class="bids-entity">1</span>.</h2>                    <details open>
+		<summary>Summary</summary>
+		<ul class="elem-desc">
+			<li>Original orientation: RAS</li>
+			<li>Repetition time (TR): 2.75s</li>
+			<li>Phase-encoding (PE) direction: Could not be determined - assuming Anterior-Posterior</li>
+			<li>Single-echo EPI sequence.</li>
+			<li>Slice timing correction: Not applied</li>
+			<li>Susceptibility distortion correction: None</li>
+			<li>Registration: FSL <code>flirt</code> with boundary-based registration (BBR) metric - 6 dof</li>
+			<li>Non-steady-state volumes: 0</li>
+		</ul>
+		</details>
+		<details>
+			<summary>Confounds collected</summary><br />
+			<p>global_signal, global_signal_derivative1, global_signal_derivative1_power2, global_signal_power2, csf, csf_derivative1, csf_derivative1_power2, csf_power2, white_matter, white_matter_derivative1, white_matter_derivative1_power2, white_matter_power2, csf_wm, tcompcor, std_dvars, dvars, framewise_displacement, rmsd, t_comp_cor_00, t_comp_cor_01, c_comp_cor_00, c_comp_cor_01, c_comp_cor_02, c_comp_cor_03, c_comp_cor_04, c_comp_cor_05, c_comp_cor_06, c_comp_cor_07, w_comp_cor_00, w_comp_cor_01, w_comp_cor_02, w_comp_cor_03, w_comp_cor_04, w_comp_cor_05, w_comp_cor_06, w_comp_cor_07, w_comp_cor_08, w_comp_cor_09, w_comp_cor_10, w_comp_cor_11, w_comp_cor_12, w_comp_cor_13, w_comp_cor_14, w_comp_cor_15, w_comp_cor_16, w_comp_cor_17, w_comp_cor_18, w_comp_cor_19, w_comp_cor_20, w_comp_cor_21, w_comp_cor_22, w_comp_cor_23, w_comp_cor_24, w_comp_cor_25, a_comp_cor_00, a_comp_cor_01, a_comp_cor_02, a_comp_cor_03, a_comp_cor_04, a_comp_cor_05, a_comp_cor_06, a_comp_cor_07, a_comp_cor_08, a_comp_cor_09, a_comp_cor_10, a_comp_cor_11, a_comp_cor_12, a_comp_cor_13, a_comp_cor_14, a_comp_cor_15, a_comp_cor_16, a_comp_cor_17, a_comp_cor_18, a_comp_cor_19, a_comp_cor_20, a_comp_cor_21, a_comp_cor_22, a_comp_cor_23, a_comp_cor_24, a_comp_cor_25, edge_comp_00, edge_comp_01, edge_comp_02, edge_comp_03, edge_comp_04, edge_comp_05, edge_comp_06, edge_comp_07, edge_comp_08, edge_comp_09, edge_comp_10, edge_comp_11, edge_comp_12, edge_comp_13, edge_comp_14, edge_comp_15, edge_comp_16, edge_comp_17, edge_comp_18, edge_comp_19, edge_comp_20, edge_comp_21, edge_comp_22, edge_comp_23, cosine00, cosine01, cosine02, cosine03, cosine04, cosine05, trans_x, trans_x_derivative1, trans_x_derivative1_power2, trans_x_power2, trans_y, trans_y_derivative1, trans_y_derivative1_power2, trans_y_power2, trans_z, trans_z_derivative1, trans_z_power2, trans_z_derivative1_power2, rot_x, rot_x_derivative1, rot_x_derivative1_power2, rot_x_power2, rot_y, rot_y_derivative1, rot_y_power2, rot_y_derivative1_power2, rot_z, rot_z_derivative1, rot_z_power2, rot_z_derivative1_power2, motion_outlier00, motion_outlier01, motion_outlier02, motion_outlier03, motion_outlier04, motion_outlier05, motion_outlier06, motion_outlier07, motion_outlier08, motion_outlier09, motion_outlier10, motion_outlier11, motion_outlier12, motion_outlier13, motion_outlier14, motion_outlier15, motion_outlier16, motion_outlier17, motion_outlier18, motion_outlier19, motion_outlier20.</p>
+		</details>
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-flirtbbr_run-1_session-3_suffix-bold_task-BDM">
+<h3 class="run-title">Alignment of functional and anatomical MRI data (surface driven)</h3><p class="elem-caption">FSL <code>flirt</code> was used to generate transformations from EPI-space to T1w-space - The white matter mask calculated with FSL <code>fast</code> (brain tissue segmentation) was used for BBR. Note that Nearest Neighbor interpolation is used in the reportlets in order to highlight potential spin-history and other artifacts, whereas final images are resampled using Lanczos interpolation.</p>                    <object class="svg-reportlet" type="image/svg+xml" data="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-1_desc-flirtbbr_bold.svg">
+Problem loading figure sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-1_desc-flirtbbr_bold.svg. If the link below works, please try reloading the report in your browser.</object>
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-1_desc-flirtbbr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-1_desc-flirtbbr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-rois_run-1_session-3_suffix-bold_task-BDM">
+<h3 class="run-title">Brain mask and (anatomical/temporal) CompCor ROIs</h3><p class="elem-caption">Brain mask calculated on the BOLD signal (red contour), along with the regions of interest (ROIs) used for the estimation of physiological and movement confounding components that can be then used as nuisance regressors in analysis.<br /> The <em>anatomical CompCor</em> ROI (magenta contour) is a mask combining CSF and WM (white-matter), where voxels containing a minimal partial volume of GM have been removed.<br /> The <em>temporal CompCor</em> ROI (blue contour) contains the top 2% most variable voxels within the brain mask.<br /> The <em>brain edge</em> (or <em>crown</em>) ROI (green contour) picks signals outside but close to the brain, which are decomposed into 24 principal components.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-1_desc-rois_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-1_desc-rois_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-1_desc-rois_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-compcorvar_run-1_session-3_suffix-bold_task-BDM">
+<h3 class="run-title">Variance explained by t/aCompCor components</h3><p class="elem-caption">The cumulative variance explained by the first k components of the <em>t/aCompCor</em> decomposition, plotted for all values of <em>k</em>. The number of components that must be included in the model in order to explain some fraction of variance in the decomposition mask can be used as a feature selection criterion for confound regression.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-1_desc-compcorvar_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-1_desc-compcorvar_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-1_desc-compcorvar_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-carpetplot_run-1_session-3_suffix-bold_task-BDM">
+<h3 class="run-title">BOLD Summary</h3><p class="elem-caption">Summary statistics are plotted, which may reveal trends or artifacts in the BOLD data. Global signals calculated within the whole-brain (GS), within the white-matter (WM) and within cerebro-spinal fluid (CSF) show the mean BOLD signal in their corresponding masks. DVARS and FD show the standardized DVARS and framewise-displacement measures for each time point.<br /> A carpet plot shows the time series for all voxels within the brain mask, or if <code>--cifti-output</code> was enabled, all grayordinates. See the figure legend for specific color mappings. "Ctx" = cortex, "Cb" = cerebellum, "WM" = white matter, "CSF" = cerebrospinal fluid. "d" and "s" prefixes indicate "deep" and "shallow" relative to the cortex. "Edge" indicates regions just outside the brain.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-1_desc-carpetplot_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-1_desc-carpetplot_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-1_desc-carpetplot_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-confoundcorr_run-1_session-3_suffix-bold_task-BDM">
+<h3 class="run-title">Correlations among nuisance regressors</h3><p class="elem-caption">Left: Heatmap summarizing the correlation structure among confound variables.
+(Cosine bases and PCA-derived CompCor components are inherently orthogonal.)
+Right: magnitude of the correlation between each confound time series and the
+mean global signal. Strong correlations might be indicative of partial volume
+effects and can inform decisions about feature orthogonalization prior to
+confound regression.
+</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-1_desc-confoundcorr_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-1_desc-confoundcorr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-1_desc-confoundcorr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-summary_run-2_session-3_suffix-bold_task-BDM">
+<h2 class="sub-report-group">Reports for: session <span class="bids-entity">3</span>, task <span class="bids-entity">BDM</span>, run <span class="bids-entity">2</span>.</h2>                    <details open>
+		<summary>Summary</summary>
+		<ul class="elem-desc">
+			<li>Original orientation: RAS</li>
+			<li>Repetition time (TR): 2.75s</li>
+			<li>Phase-encoding (PE) direction: Could not be determined - assuming Anterior-Posterior</li>
+			<li>Single-echo EPI sequence.</li>
+			<li>Slice timing correction: Not applied</li>
+			<li>Susceptibility distortion correction: None</li>
+			<li>Registration: FSL <code>flirt</code> with boundary-based registration (BBR) metric - 6 dof</li>
+			<li>Non-steady-state volumes: 0</li>
+		</ul>
+		</details>
+		<details>
+			<summary>Confounds collected</summary><br />
+			<p>global_signal, global_signal_derivative1, global_signal_derivative1_power2, global_signal_power2, csf, csf_derivative1, csf_derivative1_power2, csf_power2, white_matter, white_matter_derivative1, white_matter_derivative1_power2, white_matter_power2, csf_wm, tcompcor, std_dvars, dvars, framewise_displacement, rmsd, t_comp_cor_00, t_comp_cor_01, t_comp_cor_02, c_comp_cor_00, c_comp_cor_01, c_comp_cor_02, c_comp_cor_03, c_comp_cor_04, c_comp_cor_05, c_comp_cor_06, c_comp_cor_07, w_comp_cor_00, w_comp_cor_01, w_comp_cor_02, w_comp_cor_03, w_comp_cor_04, w_comp_cor_05, w_comp_cor_06, w_comp_cor_07, w_comp_cor_08, w_comp_cor_09, w_comp_cor_10, w_comp_cor_11, w_comp_cor_12, w_comp_cor_13, w_comp_cor_14, w_comp_cor_15, w_comp_cor_16, w_comp_cor_17, w_comp_cor_18, w_comp_cor_19, w_comp_cor_20, w_comp_cor_21, w_comp_cor_22, w_comp_cor_23, w_comp_cor_24, w_comp_cor_25, w_comp_cor_26, w_comp_cor_27, w_comp_cor_28, w_comp_cor_29, w_comp_cor_30, w_comp_cor_31, a_comp_cor_00, a_comp_cor_01, a_comp_cor_02, a_comp_cor_03, a_comp_cor_04, a_comp_cor_05, a_comp_cor_06, a_comp_cor_07, a_comp_cor_08, a_comp_cor_09, a_comp_cor_10, a_comp_cor_11, a_comp_cor_12, a_comp_cor_13, a_comp_cor_14, a_comp_cor_15, a_comp_cor_16, a_comp_cor_17, a_comp_cor_18, a_comp_cor_19, a_comp_cor_20, a_comp_cor_21, a_comp_cor_22, a_comp_cor_23, a_comp_cor_24, a_comp_cor_25, a_comp_cor_26, a_comp_cor_27, a_comp_cor_28, a_comp_cor_29, a_comp_cor_30, a_comp_cor_31, edge_comp_00, edge_comp_01, edge_comp_02, edge_comp_03, edge_comp_04, edge_comp_05, edge_comp_06, edge_comp_07, edge_comp_08, edge_comp_09, edge_comp_10, edge_comp_11, edge_comp_12, edge_comp_13, edge_comp_14, edge_comp_15, edge_comp_16, edge_comp_17, edge_comp_18, edge_comp_19, edge_comp_20, edge_comp_21, edge_comp_22, edge_comp_23, cosine00, cosine01, cosine02, cosine03, cosine04, cosine05, trans_x, trans_x_derivative1, trans_x_derivative1_power2, trans_x_power2, trans_y, trans_y_derivative1, trans_y_derivative1_power2, trans_y_power2, trans_z, trans_z_derivative1, trans_z_power2, trans_z_derivative1_power2, rot_x, rot_x_derivative1, rot_x_derivative1_power2, rot_x_power2, rot_y, rot_y_derivative1, rot_y_power2, rot_y_derivative1_power2, rot_z, rot_z_derivative1, rot_z_power2, rot_z_derivative1_power2, motion_outlier00, motion_outlier01, motion_outlier02, motion_outlier03, motion_outlier04, motion_outlier05, motion_outlier06, motion_outlier07, motion_outlier08, motion_outlier09.</p>
+		</details>
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-flirtbbr_run-2_session-3_suffix-bold_task-BDM">
+<h3 class="run-title">Alignment of functional and anatomical MRI data (surface driven)</h3><p class="elem-caption">FSL <code>flirt</code> was used to generate transformations from EPI-space to T1w-space - The white matter mask calculated with FSL <code>fast</code> (brain tissue segmentation) was used for BBR. Note that Nearest Neighbor interpolation is used in the reportlets in order to highlight potential spin-history and other artifacts, whereas final images are resampled using Lanczos interpolation.</p>                    <object class="svg-reportlet" type="image/svg+xml" data="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-2_desc-flirtbbr_bold.svg">
+Problem loading figure sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-2_desc-flirtbbr_bold.svg. If the link below works, please try reloading the report in your browser.</object>
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-2_desc-flirtbbr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-2_desc-flirtbbr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-rois_run-2_session-3_suffix-bold_task-BDM">
+<h3 class="run-title">Brain mask and (anatomical/temporal) CompCor ROIs</h3><p class="elem-caption">Brain mask calculated on the BOLD signal (red contour), along with the regions of interest (ROIs) used for the estimation of physiological and movement confounding components that can be then used as nuisance regressors in analysis.<br /> The <em>anatomical CompCor</em> ROI (magenta contour) is a mask combining CSF and WM (white-matter), where voxels containing a minimal partial volume of GM have been removed.<br /> The <em>temporal CompCor</em> ROI (blue contour) contains the top 2% most variable voxels within the brain mask.<br /> The <em>brain edge</em> (or <em>crown</em>) ROI (green contour) picks signals outside but close to the brain, which are decomposed into 24 principal components.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-2_desc-rois_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-2_desc-rois_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-2_desc-rois_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-compcorvar_run-2_session-3_suffix-bold_task-BDM">
+<h3 class="run-title">Variance explained by t/aCompCor components</h3><p class="elem-caption">The cumulative variance explained by the first k components of the <em>t/aCompCor</em> decomposition, plotted for all values of <em>k</em>. The number of components that must be included in the model in order to explain some fraction of variance in the decomposition mask can be used as a feature selection criterion for confound regression.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-2_desc-compcorvar_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-2_desc-compcorvar_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-2_desc-compcorvar_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-carpetplot_run-2_session-3_suffix-bold_task-BDM">
+<h3 class="run-title">BOLD Summary</h3><p class="elem-caption">Summary statistics are plotted, which may reveal trends or artifacts in the BOLD data. Global signals calculated within the whole-brain (GS), within the white-matter (WM) and within cerebro-spinal fluid (CSF) show the mean BOLD signal in their corresponding masks. DVARS and FD show the standardized DVARS and framewise-displacement measures for each time point.<br /> A carpet plot shows the time series for all voxels within the brain mask, or if <code>--cifti-output</code> was enabled, all grayordinates. See the figure legend for specific color mappings. "Ctx" = cortex, "Cb" = cerebellum, "WM" = white matter, "CSF" = cerebrospinal fluid. "d" and "s" prefixes indicate "deep" and "shallow" relative to the cortex. "Edge" indicates regions just outside the brain.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-2_desc-carpetplot_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-2_desc-carpetplot_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-2_desc-carpetplot_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-confoundcorr_run-2_session-3_suffix-bold_task-BDM">
+<h3 class="run-title">Correlations among nuisance regressors</h3><p class="elem-caption">Left: Heatmap summarizing the correlation structure among confound variables.
+(Cosine bases and PCA-derived CompCor components are inherently orthogonal.)
+Right: magnitude of the correlation between each confound time series and the
+mean global signal. Strong correlations might be indicative of partial volume
+effects and can inform decisions about feature orthogonalization prior to
+confound regression.
+</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-2_desc-confoundcorr_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-2_desc-confoundcorr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-2_desc-confoundcorr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-summary_run-3_session-3_suffix-bold_task-BDM">
+<h2 class="sub-report-group">Reports for: session <span class="bids-entity">3</span>, task <span class="bids-entity">BDM</span>, run <span class="bids-entity">3</span>.</h2>                    <details open>
+		<summary>Summary</summary>
+		<ul class="elem-desc">
+			<li>Original orientation: RAS</li>
+			<li>Repetition time (TR): 2.75s</li>
+			<li>Phase-encoding (PE) direction: Could not be determined - assuming Anterior-Posterior</li>
+			<li>Single-echo EPI sequence.</li>
+			<li>Slice timing correction: Not applied</li>
+			<li>Susceptibility distortion correction: None</li>
+			<li>Registration: FSL <code>flirt</code> with boundary-based registration (BBR) metric - 6 dof</li>
+			<li>Non-steady-state volumes: 0</li>
+		</ul>
+		</details>
+		<details>
+			<summary>Confounds collected</summary><br />
+			<p>global_signal, global_signal_derivative1, global_signal_derivative1_power2, global_signal_power2, csf, csf_derivative1, csf_derivative1_power2, csf_power2, white_matter, white_matter_derivative1, white_matter_derivative1_power2, white_matter_power2, csf_wm, tcompcor, std_dvars, dvars, framewise_displacement, rmsd, t_comp_cor_00, t_comp_cor_01, t_comp_cor_02, c_comp_cor_00, c_comp_cor_01, c_comp_cor_02, c_comp_cor_03, c_comp_cor_04, c_comp_cor_05, c_comp_cor_06, w_comp_cor_00, w_comp_cor_01, w_comp_cor_02, w_comp_cor_03, w_comp_cor_04, w_comp_cor_05, w_comp_cor_06, w_comp_cor_07, w_comp_cor_08, w_comp_cor_09, w_comp_cor_10, w_comp_cor_11, w_comp_cor_12, w_comp_cor_13, w_comp_cor_14, w_comp_cor_15, w_comp_cor_16, w_comp_cor_17, w_comp_cor_18, w_comp_cor_19, w_comp_cor_20, a_comp_cor_00, a_comp_cor_01, a_comp_cor_02, a_comp_cor_03, a_comp_cor_04, a_comp_cor_05, a_comp_cor_06, a_comp_cor_07, a_comp_cor_08, a_comp_cor_09, a_comp_cor_10, a_comp_cor_11, a_comp_cor_12, a_comp_cor_13, a_comp_cor_14, a_comp_cor_15, a_comp_cor_16, a_comp_cor_17, a_comp_cor_18, a_comp_cor_19, edge_comp_00, edge_comp_01, edge_comp_02, edge_comp_03, edge_comp_04, edge_comp_05, edge_comp_06, edge_comp_07, edge_comp_08, edge_comp_09, edge_comp_10, edge_comp_11, edge_comp_12, edge_comp_13, edge_comp_14, edge_comp_15, edge_comp_16, edge_comp_17, edge_comp_18, edge_comp_19, edge_comp_20, edge_comp_21, edge_comp_22, edge_comp_23, cosine00, cosine01, cosine02, cosine03, cosine04, cosine05, trans_x, trans_x_derivative1, trans_x_derivative1_power2, trans_x_power2, trans_y, trans_y_derivative1, trans_y_derivative1_power2, trans_y_power2, trans_z, trans_z_derivative1, trans_z_power2, trans_z_derivative1_power2, rot_x, rot_x_derivative1, rot_x_derivative1_power2, rot_x_power2, rot_y, rot_y_derivative1, rot_y_power2, rot_y_derivative1_power2, rot_z, rot_z_derivative1, rot_z_power2, rot_z_derivative1_power2, motion_outlier00, motion_outlier01, motion_outlier02, motion_outlier03, motion_outlier04, motion_outlier05, motion_outlier06, motion_outlier07, motion_outlier08, motion_outlier09, motion_outlier10, motion_outlier11, motion_outlier12, motion_outlier13, motion_outlier14, motion_outlier15, motion_outlier16, motion_outlier17, motion_outlier18, motion_outlier19, motion_outlier20, motion_outlier21.</p>
+		</details>
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-flirtbbr_run-3_session-3_suffix-bold_task-BDM">
+<h3 class="run-title">Alignment of functional and anatomical MRI data (surface driven)</h3><p class="elem-caption">FSL <code>flirt</code> was used to generate transformations from EPI-space to T1w-space - The white matter mask calculated with FSL <code>fast</code> (brain tissue segmentation) was used for BBR. Note that Nearest Neighbor interpolation is used in the reportlets in order to highlight potential spin-history and other artifacts, whereas final images are resampled using Lanczos interpolation.</p>                    <object class="svg-reportlet" type="image/svg+xml" data="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-3_desc-flirtbbr_bold.svg">
+Problem loading figure sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-3_desc-flirtbbr_bold.svg. If the link below works, please try reloading the report in your browser.</object>
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-3_desc-flirtbbr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-3_desc-flirtbbr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-rois_run-3_session-3_suffix-bold_task-BDM">
+<h3 class="run-title">Brain mask and (anatomical/temporal) CompCor ROIs</h3><p class="elem-caption">Brain mask calculated on the BOLD signal (red contour), along with the regions of interest (ROIs) used for the estimation of physiological and movement confounding components that can be then used as nuisance regressors in analysis.<br /> The <em>anatomical CompCor</em> ROI (magenta contour) is a mask combining CSF and WM (white-matter), where voxels containing a minimal partial volume of GM have been removed.<br /> The <em>temporal CompCor</em> ROI (blue contour) contains the top 2% most variable voxels within the brain mask.<br /> The <em>brain edge</em> (or <em>crown</em>) ROI (green contour) picks signals outside but close to the brain, which are decomposed into 24 principal components.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-3_desc-rois_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-3_desc-rois_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-3_desc-rois_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-compcorvar_run-3_session-3_suffix-bold_task-BDM">
+<h3 class="run-title">Variance explained by t/aCompCor components</h3><p class="elem-caption">The cumulative variance explained by the first k components of the <em>t/aCompCor</em> decomposition, plotted for all values of <em>k</em>. The number of components that must be included in the model in order to explain some fraction of variance in the decomposition mask can be used as a feature selection criterion for confound regression.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-3_desc-compcorvar_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-3_desc-compcorvar_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-3_desc-compcorvar_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-carpetplot_run-3_session-3_suffix-bold_task-BDM">
+<h3 class="run-title">BOLD Summary</h3><p class="elem-caption">Summary statistics are plotted, which may reveal trends or artifacts in the BOLD data. Global signals calculated within the whole-brain (GS), within the white-matter (WM) and within cerebro-spinal fluid (CSF) show the mean BOLD signal in their corresponding masks. DVARS and FD show the standardized DVARS and framewise-displacement measures for each time point.<br /> A carpet plot shows the time series for all voxels within the brain mask, or if <code>--cifti-output</code> was enabled, all grayordinates. See the figure legend for specific color mappings. "Ctx" = cortex, "Cb" = cerebellum, "WM" = white matter, "CSF" = cerebrospinal fluid. "d" and "s" prefixes indicate "deep" and "shallow" relative to the cortex. "Edge" indicates regions just outside the brain.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-3_desc-carpetplot_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-3_desc-carpetplot_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-3_desc-carpetplot_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-confoundcorr_run-3_session-3_suffix-bold_task-BDM">
+<h3 class="run-title">Correlations among nuisance regressors</h3><p class="elem-caption">Left: Heatmap summarizing the correlation structure among confound variables.
+(Cosine bases and PCA-derived CompCor components are inherently orthogonal.)
+Right: magnitude of the correlation between each confound time series and the
+mean global signal. Strong correlations might be indicative of partial volume
+effects and can inform decisions about feature orthogonalization prior to
+confound regression.
+</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-3_desc-confoundcorr_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-3_desc-confoundcorr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-3_task-BDM_run-3_desc-confoundcorr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-longtr_datatype-figures_desc-summary_run-None_session-3_suffix-bold_task-rest">
+<h2 class="sub-report-group">Reports for: session <span class="bids-entity">3</span>, task <span class="bids-entity">rest</span>, acquisition <span class="bids-entity">longtr</span>.</h2>                    <details open>
+		<summary>Summary</summary>
+		<ul class="elem-desc">
+			<li>Original orientation: LAS</li>
+			<li>Repetition time (TR): 2.75s</li>
+			<li>Phase-encoding (PE) direction: Could not be determined - assuming Anterior-Posterior</li>
+			<li>Single-echo EPI sequence.</li>
+			<li>Slice timing correction: Not applied</li>
+			<li>Susceptibility distortion correction: None</li>
+			<li>Registration: FSL <code>flirt</code> with boundary-based registration (BBR) metric - 6 dof</li>
+			<li>Non-steady-state volumes: 0</li>
+		</ul>
+		</details>
+		<details>
+			<summary>Confounds collected</summary><br />
+			<p>global_signal, global_signal_derivative1, global_signal_derivative1_power2, global_signal_power2, csf, csf_derivative1, csf_derivative1_power2, csf_power2, white_matter, white_matter_derivative1, white_matter_derivative1_power2, white_matter_power2, csf_wm, tcompcor, std_dvars, dvars, framewise_displacement, rmsd, t_comp_cor_00, t_comp_cor_01, t_comp_cor_02, c_comp_cor_00, c_comp_cor_01, c_comp_cor_02, c_comp_cor_03, c_comp_cor_04, c_comp_cor_05, c_comp_cor_06, c_comp_cor_07, w_comp_cor_00, w_comp_cor_01, w_comp_cor_02, w_comp_cor_03, w_comp_cor_04, w_comp_cor_05, w_comp_cor_06, w_comp_cor_07, w_comp_cor_08, w_comp_cor_09, w_comp_cor_10, w_comp_cor_11, w_comp_cor_12, w_comp_cor_13, w_comp_cor_14, w_comp_cor_15, w_comp_cor_16, w_comp_cor_17, w_comp_cor_18, w_comp_cor_19, w_comp_cor_20, w_comp_cor_21, w_comp_cor_22, w_comp_cor_23, w_comp_cor_24, w_comp_cor_25, w_comp_cor_26, w_comp_cor_27, w_comp_cor_28, w_comp_cor_29, w_comp_cor_30, w_comp_cor_31, w_comp_cor_32, w_comp_cor_33, a_comp_cor_00, a_comp_cor_01, a_comp_cor_02, a_comp_cor_03, a_comp_cor_04, a_comp_cor_05, a_comp_cor_06, a_comp_cor_07, a_comp_cor_08, a_comp_cor_09, a_comp_cor_10, a_comp_cor_11, a_comp_cor_12, a_comp_cor_13, a_comp_cor_14, a_comp_cor_15, a_comp_cor_16, a_comp_cor_17, a_comp_cor_18, a_comp_cor_19, a_comp_cor_20, a_comp_cor_21, a_comp_cor_22, a_comp_cor_23, a_comp_cor_24, a_comp_cor_25, a_comp_cor_26, a_comp_cor_27, a_comp_cor_28, a_comp_cor_29, a_comp_cor_30, a_comp_cor_31, a_comp_cor_32, a_comp_cor_33, edge_comp_00, edge_comp_01, edge_comp_02, edge_comp_03, edge_comp_04, edge_comp_05, edge_comp_06, edge_comp_07, edge_comp_08, edge_comp_09, edge_comp_10, edge_comp_11, edge_comp_12, edge_comp_13, edge_comp_14, edge_comp_15, edge_comp_16, edge_comp_17, edge_comp_18, edge_comp_19, edge_comp_20, edge_comp_21, edge_comp_22, edge_comp_23, cosine00, cosine01, cosine02, cosine03, cosine04, cosine05, cosine06, cosine07, trans_x, trans_x_derivative1, trans_x_derivative1_power2, trans_x_power2, trans_y, trans_y_derivative1, trans_y_derivative1_power2, trans_y_power2, trans_z, trans_z_derivative1, trans_z_power2, trans_z_derivative1_power2, rot_x, rot_x_derivative1, rot_x_derivative1_power2, rot_x_power2, rot_y, rot_y_derivative1, rot_y_power2, rot_y_derivative1_power2, rot_z, rot_z_derivative1, rot_z_power2, rot_z_derivative1_power2, motion_outlier00, motion_outlier01, motion_outlier02, motion_outlier03, motion_outlier04, motion_outlier05.</p>
+		</details>
+        </div>
+        <div id="acquisition-longtr_datatype-figures_desc-validation_run-None_session-3_suffix-bold_task-rest">
+                    <h3 class="elem-title">Note on orientation: qform matrix overwritten</h3>
+			    <p class="elem-desc">
+			    The qform has been copied from sform.
+			    The difference in angle is -7.3e-09 radians.
+			    The difference in translation is 8.7e-15mm.
+			    </p>
+        </div>
+        <div id="acquisition-longtr_datatype-figures_desc-flirtbbr_run-None_session-3_suffix-bold_task-rest">
+<h3 class="run-title">Alignment of functional and anatomical MRI data (surface driven)</h3><p class="elem-caption">FSL <code>flirt</code> was used to generate transformations from EPI-space to T1w-space - The white matter mask calculated with FSL <code>fast</code> (brain tissue segmentation) was used for BBR. Note that Nearest Neighbor interpolation is used in the reportlets in order to highlight potential spin-history and other artifacts, whereas final images are resampled using Lanczos interpolation.</p>                    <object class="svg-reportlet" type="image/svg+xml" data="./sub-RND050/figures/sub-RND050_ses-3_task-rest_acq-longtr_desc-flirtbbr_bold.svg">
+Problem loading figure sub-RND050/figures/sub-RND050_ses-3_task-rest_acq-longtr_desc-flirtbbr_bold.svg. If the link below works, please try reloading the report in your browser.</object>
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-3_task-rest_acq-longtr_desc-flirtbbr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-3_task-rest_acq-longtr_desc-flirtbbr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-longtr_datatype-figures_desc-rois_run-None_session-3_suffix-bold_task-rest">
+<h3 class="run-title">Brain mask and (anatomical/temporal) CompCor ROIs</h3><p class="elem-caption">Brain mask calculated on the BOLD signal (red contour), along with the regions of interest (ROIs) used for the estimation of physiological and movement confounding components that can be then used as nuisance regressors in analysis.<br /> The <em>anatomical CompCor</em> ROI (magenta contour) is a mask combining CSF and WM (white-matter), where voxels containing a minimal partial volume of GM have been removed.<br /> The <em>temporal CompCor</em> ROI (blue contour) contains the top 2% most variable voxels within the brain mask.<br /> The <em>brain edge</em> (or <em>crown</em>) ROI (green contour) picks signals outside but close to the brain, which are decomposed into 24 principal components.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-3_task-rest_acq-longtr_desc-rois_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-3_task-rest_acq-longtr_desc-rois_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-3_task-rest_acq-longtr_desc-rois_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-longtr_datatype-figures_desc-compcorvar_run-None_session-3_suffix-bold_task-rest">
+<h3 class="run-title">Variance explained by t/aCompCor components</h3><p class="elem-caption">The cumulative variance explained by the first k components of the <em>t/aCompCor</em> decomposition, plotted for all values of <em>k</em>. The number of components that must be included in the model in order to explain some fraction of variance in the decomposition mask can be used as a feature selection criterion for confound regression.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-3_task-rest_acq-longtr_desc-compcorvar_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-3_task-rest_acq-longtr_desc-compcorvar_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-3_task-rest_acq-longtr_desc-compcorvar_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-longtr_datatype-figures_desc-carpetplot_run-None_session-3_suffix-bold_task-rest">
+<h3 class="run-title">BOLD Summary</h3><p class="elem-caption">Summary statistics are plotted, which may reveal trends or artifacts in the BOLD data. Global signals calculated within the whole-brain (GS), within the white-matter (WM) and within cerebro-spinal fluid (CSF) show the mean BOLD signal in their corresponding masks. DVARS and FD show the standardized DVARS and framewise-displacement measures for each time point.<br /> A carpet plot shows the time series for all voxels within the brain mask, or if <code>--cifti-output</code> was enabled, all grayordinates. See the figure legend for specific color mappings. "Ctx" = cortex, "Cb" = cerebellum, "WM" = white matter, "CSF" = cerebrospinal fluid. "d" and "s" prefixes indicate "deep" and "shallow" relative to the cortex. "Edge" indicates regions just outside the brain.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-3_task-rest_acq-longtr_desc-carpetplot_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-3_task-rest_acq-longtr_desc-carpetplot_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-3_task-rest_acq-longtr_desc-carpetplot_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-longtr_datatype-figures_desc-confoundcorr_run-None_session-3_suffix-bold_task-rest">
+<h3 class="run-title">Correlations among nuisance regressors</h3><p class="elem-caption">Left: Heatmap summarizing the correlation structure among confound variables.
+(Cosine bases and PCA-derived CompCor components are inherently orthogonal.)
+Right: magnitude of the correlation between each confound time series and the
+mean global signal. Strong correlations might be indicative of partial volume
+effects and can inform decisions about feature orthogonalization prior to
+confound regression.
+</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-3_task-rest_acq-longtr_desc-confoundcorr_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-3_task-rest_acq-longtr_desc-confoundcorr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-3_task-rest_acq-longtr_desc-confoundcorr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-summary_run-1_session-4_suffix-bold_task-BDM">
+<h2 class="sub-report-group">Reports for: session <span class="bids-entity">4</span>, task <span class="bids-entity">BDM</span>, run <span class="bids-entity">1</span>.</h2>                    <details open>
+		<summary>Summary</summary>
+		<ul class="elem-desc">
+			<li>Original orientation: RAS</li>
+			<li>Repetition time (TR): 2.75s</li>
+			<li>Phase-encoding (PE) direction: Could not be determined - assuming Anterior-Posterior</li>
+			<li>Single-echo EPI sequence.</li>
+			<li>Slice timing correction: Not applied</li>
+			<li>Susceptibility distortion correction: None</li>
+			<li>Registration: FSL <code>flirt</code> with boundary-based registration (BBR) metric - 6 dof</li>
+			<li>Non-steady-state volumes: 0</li>
+		</ul>
+		</details>
+		<details>
+			<summary>Confounds collected</summary><br />
+			<p>global_signal, global_signal_derivative1, global_signal_derivative1_power2, global_signal_power2, csf, csf_derivative1, csf_derivative1_power2, csf_power2, white_matter, white_matter_derivative1, white_matter_derivative1_power2, white_matter_power2, csf_wm, tcompcor, std_dvars, dvars, framewise_displacement, rmsd, t_comp_cor_00, t_comp_cor_01, c_comp_cor_00, c_comp_cor_01, c_comp_cor_02, c_comp_cor_03, c_comp_cor_04, c_comp_cor_05, w_comp_cor_00, w_comp_cor_01, w_comp_cor_02, w_comp_cor_03, w_comp_cor_04, w_comp_cor_05, w_comp_cor_06, w_comp_cor_07, w_comp_cor_08, w_comp_cor_09, w_comp_cor_10, w_comp_cor_11, w_comp_cor_12, w_comp_cor_13, w_comp_cor_14, w_comp_cor_15, w_comp_cor_16, w_comp_cor_17, w_comp_cor_18, w_comp_cor_19, w_comp_cor_20, w_comp_cor_21, w_comp_cor_22, w_comp_cor_23, w_comp_cor_24, w_comp_cor_25, w_comp_cor_26, w_comp_cor_27, w_comp_cor_28, w_comp_cor_29, w_comp_cor_30, w_comp_cor_31, w_comp_cor_32, w_comp_cor_33, a_comp_cor_00, a_comp_cor_01, a_comp_cor_02, a_comp_cor_03, a_comp_cor_04, a_comp_cor_05, a_comp_cor_06, a_comp_cor_07, a_comp_cor_08, a_comp_cor_09, a_comp_cor_10, a_comp_cor_11, a_comp_cor_12, a_comp_cor_13, a_comp_cor_14, a_comp_cor_15, a_comp_cor_16, a_comp_cor_17, a_comp_cor_18, a_comp_cor_19, a_comp_cor_20, a_comp_cor_21, a_comp_cor_22, a_comp_cor_23, a_comp_cor_24, a_comp_cor_25, a_comp_cor_26, a_comp_cor_27, a_comp_cor_28, a_comp_cor_29, a_comp_cor_30, a_comp_cor_31, a_comp_cor_32, a_comp_cor_33, edge_comp_00, edge_comp_01, edge_comp_02, edge_comp_03, edge_comp_04, edge_comp_05, edge_comp_06, edge_comp_07, edge_comp_08, edge_comp_09, edge_comp_10, edge_comp_11, edge_comp_12, edge_comp_13, edge_comp_14, edge_comp_15, edge_comp_16, edge_comp_17, edge_comp_18, edge_comp_19, edge_comp_20, edge_comp_21, edge_comp_22, edge_comp_23, cosine00, cosine01, cosine02, cosine03, cosine04, cosine05, trans_x, trans_x_derivative1, trans_x_derivative1_power2, trans_x_power2, trans_y, trans_y_derivative1, trans_y_derivative1_power2, trans_y_power2, trans_z, trans_z_derivative1, trans_z_power2, trans_z_derivative1_power2, rot_x, rot_x_derivative1, rot_x_derivative1_power2, rot_x_power2, rot_y, rot_y_derivative1, rot_y_power2, rot_y_derivative1_power2, rot_z, rot_z_derivative1, rot_z_power2, rot_z_derivative1_power2, motion_outlier00, motion_outlier01, motion_outlier02, motion_outlier03, motion_outlier04, motion_outlier05, motion_outlier06, motion_outlier07, motion_outlier08, motion_outlier09, motion_outlier10, motion_outlier11, motion_outlier12, motion_outlier13, motion_outlier14, motion_outlier15, motion_outlier16, motion_outlier17, motion_outlier18, motion_outlier19, motion_outlier20, motion_outlier21, motion_outlier22, motion_outlier23, motion_outlier24, motion_outlier25, motion_outlier26, motion_outlier27, motion_outlier28, motion_outlier29, motion_outlier30, motion_outlier31, motion_outlier32, motion_outlier33, motion_outlier34, motion_outlier35, motion_outlier36, motion_outlier37, motion_outlier38, motion_outlier39, motion_outlier40, motion_outlier41, motion_outlier42, motion_outlier43, motion_outlier44, motion_outlier45, motion_outlier46, motion_outlier47, motion_outlier48, motion_outlier49, motion_outlier50, motion_outlier51, motion_outlier52, motion_outlier53, motion_outlier54, motion_outlier55, motion_outlier56, motion_outlier57, motion_outlier58, motion_outlier59, motion_outlier60, motion_outlier61, motion_outlier62, motion_outlier63, motion_outlier64, motion_outlier65, motion_outlier66, motion_outlier67, motion_outlier68, motion_outlier69, motion_outlier70, motion_outlier71, motion_outlier72, motion_outlier73, motion_outlier74, motion_outlier75, motion_outlier76, motion_outlier77, motion_outlier78, motion_outlier79, motion_outlier80, motion_outlier81, motion_outlier82, motion_outlier83, motion_outlier84, motion_outlier85, motion_outlier86, motion_outlier87, motion_outlier88, motion_outlier89.</p>
+		</details>
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-flirtbbr_run-1_session-4_suffix-bold_task-BDM">
+<h3 class="run-title">Alignment of functional and anatomical MRI data (surface driven)</h3><p class="elem-caption">FSL <code>flirt</code> was used to generate transformations from EPI-space to T1w-space - The white matter mask calculated with FSL <code>fast</code> (brain tissue segmentation) was used for BBR. Note that Nearest Neighbor interpolation is used in the reportlets in order to highlight potential spin-history and other artifacts, whereas final images are resampled using Lanczos interpolation.</p>                    <object class="svg-reportlet" type="image/svg+xml" data="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-1_desc-flirtbbr_bold.svg">
+Problem loading figure sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-1_desc-flirtbbr_bold.svg. If the link below works, please try reloading the report in your browser.</object>
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-1_desc-flirtbbr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-1_desc-flirtbbr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-rois_run-1_session-4_suffix-bold_task-BDM">
+<h3 class="run-title">Brain mask and (anatomical/temporal) CompCor ROIs</h3><p class="elem-caption">Brain mask calculated on the BOLD signal (red contour), along with the regions of interest (ROIs) used for the estimation of physiological and movement confounding components that can be then used as nuisance regressors in analysis.<br /> The <em>anatomical CompCor</em> ROI (magenta contour) is a mask combining CSF and WM (white-matter), where voxels containing a minimal partial volume of GM have been removed.<br /> The <em>temporal CompCor</em> ROI (blue contour) contains the top 2% most variable voxels within the brain mask.<br /> The <em>brain edge</em> (or <em>crown</em>) ROI (green contour) picks signals outside but close to the brain, which are decomposed into 24 principal components.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-1_desc-rois_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-1_desc-rois_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-1_desc-rois_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-compcorvar_run-1_session-4_suffix-bold_task-BDM">
+<h3 class="run-title">Variance explained by t/aCompCor components</h3><p class="elem-caption">The cumulative variance explained by the first k components of the <em>t/aCompCor</em> decomposition, plotted for all values of <em>k</em>. The number of components that must be included in the model in order to explain some fraction of variance in the decomposition mask can be used as a feature selection criterion for confound regression.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-1_desc-compcorvar_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-1_desc-compcorvar_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-1_desc-compcorvar_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-carpetplot_run-1_session-4_suffix-bold_task-BDM">
+<h3 class="run-title">BOLD Summary</h3><p class="elem-caption">Summary statistics are plotted, which may reveal trends or artifacts in the BOLD data. Global signals calculated within the whole-brain (GS), within the white-matter (WM) and within cerebro-spinal fluid (CSF) show the mean BOLD signal in their corresponding masks. DVARS and FD show the standardized DVARS and framewise-displacement measures for each time point.<br /> A carpet plot shows the time series for all voxels within the brain mask, or if <code>--cifti-output</code> was enabled, all grayordinates. See the figure legend for specific color mappings. "Ctx" = cortex, "Cb" = cerebellum, "WM" = white matter, "CSF" = cerebrospinal fluid. "d" and "s" prefixes indicate "deep" and "shallow" relative to the cortex. "Edge" indicates regions just outside the brain.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-1_desc-carpetplot_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-1_desc-carpetplot_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-1_desc-carpetplot_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-confoundcorr_run-1_session-4_suffix-bold_task-BDM">
+<h3 class="run-title">Correlations among nuisance regressors</h3><p class="elem-caption">Left: Heatmap summarizing the correlation structure among confound variables.
+(Cosine bases and PCA-derived CompCor components are inherently orthogonal.)
+Right: magnitude of the correlation between each confound time series and the
+mean global signal. Strong correlations might be indicative of partial volume
+effects and can inform decisions about feature orthogonalization prior to
+confound regression.
+</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-1_desc-confoundcorr_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-1_desc-confoundcorr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-1_desc-confoundcorr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-summary_run-2_session-4_suffix-bold_task-BDM">
+<h2 class="sub-report-group">Reports for: session <span class="bids-entity">4</span>, task <span class="bids-entity">BDM</span>, run <span class="bids-entity">2</span>.</h2>                    <details open>
+		<summary>Summary</summary>
+		<ul class="elem-desc">
+			<li>Original orientation: RAS</li>
+			<li>Repetition time (TR): 2.75s</li>
+			<li>Phase-encoding (PE) direction: Could not be determined - assuming Anterior-Posterior</li>
+			<li>Single-echo EPI sequence.</li>
+			<li>Slice timing correction: Not applied</li>
+			<li>Susceptibility distortion correction: None</li>
+			<li>Registration: FSL <code>flirt</code> with boundary-based registration (BBR) metric - 6 dof</li>
+			<li>Non-steady-state volumes: 0</li>
+		</ul>
+		</details>
+		<details>
+			<summary>Confounds collected</summary><br />
+			<p>global_signal, global_signal_derivative1, global_signal_derivative1_power2, global_signal_power2, csf, csf_derivative1, csf_derivative1_power2, csf_power2, white_matter, white_matter_derivative1, white_matter_derivative1_power2, white_matter_power2, csf_wm, tcompcor, std_dvars, dvars, framewise_displacement, rmsd, t_comp_cor_00, t_comp_cor_01, c_comp_cor_00, c_comp_cor_01, c_comp_cor_02, c_comp_cor_03, c_comp_cor_04, c_comp_cor_05, c_comp_cor_06, w_comp_cor_00, w_comp_cor_01, w_comp_cor_02, w_comp_cor_03, w_comp_cor_04, w_comp_cor_05, w_comp_cor_06, w_comp_cor_07, w_comp_cor_08, w_comp_cor_09, w_comp_cor_10, w_comp_cor_11, w_comp_cor_12, w_comp_cor_13, w_comp_cor_14, w_comp_cor_15, w_comp_cor_16, w_comp_cor_17, w_comp_cor_18, w_comp_cor_19, w_comp_cor_20, w_comp_cor_21, w_comp_cor_22, w_comp_cor_23, w_comp_cor_24, w_comp_cor_25, w_comp_cor_26, w_comp_cor_27, w_comp_cor_28, w_comp_cor_29, w_comp_cor_30, w_comp_cor_31, w_comp_cor_32, w_comp_cor_33, w_comp_cor_34, w_comp_cor_35, a_comp_cor_00, a_comp_cor_01, a_comp_cor_02, a_comp_cor_03, a_comp_cor_04, a_comp_cor_05, a_comp_cor_06, a_comp_cor_07, a_comp_cor_08, a_comp_cor_09, a_comp_cor_10, a_comp_cor_11, a_comp_cor_12, a_comp_cor_13, a_comp_cor_14, a_comp_cor_15, a_comp_cor_16, a_comp_cor_17, a_comp_cor_18, a_comp_cor_19, a_comp_cor_20, a_comp_cor_21, a_comp_cor_22, a_comp_cor_23, a_comp_cor_24, a_comp_cor_25, a_comp_cor_26, a_comp_cor_27, a_comp_cor_28, a_comp_cor_29, a_comp_cor_30, a_comp_cor_31, a_comp_cor_32, a_comp_cor_33, a_comp_cor_34, a_comp_cor_35, edge_comp_00, edge_comp_01, edge_comp_02, edge_comp_03, edge_comp_04, edge_comp_05, edge_comp_06, edge_comp_07, edge_comp_08, edge_comp_09, edge_comp_10, edge_comp_11, edge_comp_12, edge_comp_13, edge_comp_14, edge_comp_15, edge_comp_16, edge_comp_17, edge_comp_18, edge_comp_19, edge_comp_20, edge_comp_21, edge_comp_22, edge_comp_23, cosine00, cosine01, cosine02, cosine03, cosine04, cosine05, trans_x, trans_x_derivative1, trans_x_derivative1_power2, trans_x_power2, trans_y, trans_y_derivative1, trans_y_derivative1_power2, trans_y_power2, trans_z, trans_z_derivative1, trans_z_power2, trans_z_derivative1_power2, rot_x, rot_x_derivative1, rot_x_derivative1_power2, rot_x_power2, rot_y, rot_y_derivative1, rot_y_power2, rot_y_derivative1_power2, rot_z, rot_z_derivative1, rot_z_power2, rot_z_derivative1_power2, motion_outlier00, motion_outlier01, motion_outlier02, motion_outlier03, motion_outlier04, motion_outlier05, motion_outlier06, motion_outlier07, motion_outlier08, motion_outlier09, motion_outlier10, motion_outlier11, motion_outlier12, motion_outlier13, motion_outlier14, motion_outlier15, motion_outlier16, motion_outlier17, motion_outlier18, motion_outlier19, motion_outlier20, motion_outlier21, motion_outlier22, motion_outlier23, motion_outlier24, motion_outlier25, motion_outlier26, motion_outlier27, motion_outlier28, motion_outlier29, motion_outlier30, motion_outlier31, motion_outlier32, motion_outlier33, motion_outlier34, motion_outlier35, motion_outlier36, motion_outlier37, motion_outlier38, motion_outlier39, motion_outlier40, motion_outlier41, motion_outlier42, motion_outlier43, motion_outlier44, motion_outlier45, motion_outlier46, motion_outlier47, motion_outlier48, motion_outlier49, motion_outlier50, motion_outlier51, motion_outlier52, motion_outlier53, motion_outlier54, motion_outlier55, motion_outlier56, motion_outlier57, motion_outlier58, motion_outlier59, motion_outlier60, motion_outlier61, motion_outlier62, motion_outlier63, motion_outlier64, motion_outlier65, motion_outlier66, motion_outlier67, motion_outlier68, motion_outlier69, motion_outlier70, motion_outlier71, motion_outlier72, motion_outlier73, motion_outlier74, motion_outlier75, motion_outlier76, motion_outlier77, motion_outlier78, motion_outlier79, motion_outlier80, motion_outlier81, motion_outlier82, motion_outlier83.</p>
+		</details>
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-flirtbbr_run-2_session-4_suffix-bold_task-BDM">
+<h3 class="run-title">Alignment of functional and anatomical MRI data (surface driven)</h3><p class="elem-caption">FSL <code>flirt</code> was used to generate transformations from EPI-space to T1w-space - The white matter mask calculated with FSL <code>fast</code> (brain tissue segmentation) was used for BBR. Note that Nearest Neighbor interpolation is used in the reportlets in order to highlight potential spin-history and other artifacts, whereas final images are resampled using Lanczos interpolation.</p>                    <object class="svg-reportlet" type="image/svg+xml" data="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-2_desc-flirtbbr_bold.svg">
+Problem loading figure sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-2_desc-flirtbbr_bold.svg. If the link below works, please try reloading the report in your browser.</object>
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-2_desc-flirtbbr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-2_desc-flirtbbr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-rois_run-2_session-4_suffix-bold_task-BDM">
+<h3 class="run-title">Brain mask and (anatomical/temporal) CompCor ROIs</h3><p class="elem-caption">Brain mask calculated on the BOLD signal (red contour), along with the regions of interest (ROIs) used for the estimation of physiological and movement confounding components that can be then used as nuisance regressors in analysis.<br /> The <em>anatomical CompCor</em> ROI (magenta contour) is a mask combining CSF and WM (white-matter), where voxels containing a minimal partial volume of GM have been removed.<br /> The <em>temporal CompCor</em> ROI (blue contour) contains the top 2% most variable voxels within the brain mask.<br /> The <em>brain edge</em> (or <em>crown</em>) ROI (green contour) picks signals outside but close to the brain, which are decomposed into 24 principal components.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-2_desc-rois_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-2_desc-rois_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-2_desc-rois_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-compcorvar_run-2_session-4_suffix-bold_task-BDM">
+<h3 class="run-title">Variance explained by t/aCompCor components</h3><p class="elem-caption">The cumulative variance explained by the first k components of the <em>t/aCompCor</em> decomposition, plotted for all values of <em>k</em>. The number of components that must be included in the model in order to explain some fraction of variance in the decomposition mask can be used as a feature selection criterion for confound regression.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-2_desc-compcorvar_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-2_desc-compcorvar_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-2_desc-compcorvar_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-carpetplot_run-2_session-4_suffix-bold_task-BDM">
+<h3 class="run-title">BOLD Summary</h3><p class="elem-caption">Summary statistics are plotted, which may reveal trends or artifacts in the BOLD data. Global signals calculated within the whole-brain (GS), within the white-matter (WM) and within cerebro-spinal fluid (CSF) show the mean BOLD signal in their corresponding masks. DVARS and FD show the standardized DVARS and framewise-displacement measures for each time point.<br /> A carpet plot shows the time series for all voxels within the brain mask, or if <code>--cifti-output</code> was enabled, all grayordinates. See the figure legend for specific color mappings. "Ctx" = cortex, "Cb" = cerebellum, "WM" = white matter, "CSF" = cerebrospinal fluid. "d" and "s" prefixes indicate "deep" and "shallow" relative to the cortex. "Edge" indicates regions just outside the brain.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-2_desc-carpetplot_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-2_desc-carpetplot_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-2_desc-carpetplot_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-confoundcorr_run-2_session-4_suffix-bold_task-BDM">
+<h3 class="run-title">Correlations among nuisance regressors</h3><p class="elem-caption">Left: Heatmap summarizing the correlation structure among confound variables.
+(Cosine bases and PCA-derived CompCor components are inherently orthogonal.)
+Right: magnitude of the correlation between each confound time series and the
+mean global signal. Strong correlations might be indicative of partial volume
+effects and can inform decisions about feature orthogonalization prior to
+confound regression.
+</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-2_desc-confoundcorr_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-2_desc-confoundcorr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-2_desc-confoundcorr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-summary_run-3_session-4_suffix-bold_task-BDM">
+<h2 class="sub-report-group">Reports for: session <span class="bids-entity">4</span>, task <span class="bids-entity">BDM</span>, run <span class="bids-entity">3</span>.</h2>                    <details open>
+		<summary>Summary</summary>
+		<ul class="elem-desc">
+			<li>Original orientation: RAS</li>
+			<li>Repetition time (TR): 2.75s</li>
+			<li>Phase-encoding (PE) direction: Could not be determined - assuming Anterior-Posterior</li>
+			<li>Single-echo EPI sequence.</li>
+			<li>Slice timing correction: Not applied</li>
+			<li>Susceptibility distortion correction: None</li>
+			<li>Registration: FSL <code>flirt</code> with boundary-based registration (BBR) metric - 6 dof</li>
+			<li>Non-steady-state volumes: 0</li>
+		</ul>
+		</details>
+		<details>
+			<summary>Confounds collected</summary><br />
+			<p>global_signal, global_signal_derivative1, global_signal_derivative1_power2, global_signal_power2, csf, csf_derivative1, csf_derivative1_power2, csf_power2, white_matter, white_matter_derivative1, white_matter_derivative1_power2, white_matter_power2, csf_wm, tcompcor, std_dvars, dvars, framewise_displacement, rmsd, t_comp_cor_00, t_comp_cor_01, c_comp_cor_00, c_comp_cor_01, c_comp_cor_02, c_comp_cor_03, c_comp_cor_04, c_comp_cor_05, c_comp_cor_06, w_comp_cor_00, w_comp_cor_01, w_comp_cor_02, w_comp_cor_03, w_comp_cor_04, w_comp_cor_05, w_comp_cor_06, w_comp_cor_07, w_comp_cor_08, w_comp_cor_09, w_comp_cor_10, w_comp_cor_11, w_comp_cor_12, w_comp_cor_13, w_comp_cor_14, w_comp_cor_15, w_comp_cor_16, w_comp_cor_17, w_comp_cor_18, w_comp_cor_19, w_comp_cor_20, w_comp_cor_21, w_comp_cor_22, w_comp_cor_23, w_comp_cor_24, w_comp_cor_25, w_comp_cor_26, w_comp_cor_27, w_comp_cor_28, w_comp_cor_29, w_comp_cor_30, w_comp_cor_31, w_comp_cor_32, w_comp_cor_33, w_comp_cor_34, a_comp_cor_00, a_comp_cor_01, a_comp_cor_02, a_comp_cor_03, a_comp_cor_04, a_comp_cor_05, a_comp_cor_06, a_comp_cor_07, a_comp_cor_08, a_comp_cor_09, a_comp_cor_10, a_comp_cor_11, a_comp_cor_12, a_comp_cor_13, a_comp_cor_14, a_comp_cor_15, a_comp_cor_16, a_comp_cor_17, a_comp_cor_18, a_comp_cor_19, a_comp_cor_20, a_comp_cor_21, a_comp_cor_22, a_comp_cor_23, a_comp_cor_24, a_comp_cor_25, a_comp_cor_26, a_comp_cor_27, a_comp_cor_28, a_comp_cor_29, a_comp_cor_30, a_comp_cor_31, a_comp_cor_32, a_comp_cor_33, a_comp_cor_34, edge_comp_00, edge_comp_01, edge_comp_02, edge_comp_03, edge_comp_04, edge_comp_05, edge_comp_06, edge_comp_07, edge_comp_08, edge_comp_09, edge_comp_10, edge_comp_11, edge_comp_12, edge_comp_13, edge_comp_14, edge_comp_15, edge_comp_16, edge_comp_17, edge_comp_18, edge_comp_19, edge_comp_20, edge_comp_21, edge_comp_22, edge_comp_23, cosine00, cosine01, cosine02, cosine03, cosine04, cosine05, trans_x, trans_x_derivative1, trans_x_derivative1_power2, trans_x_power2, trans_y, trans_y_derivative1, trans_y_derivative1_power2, trans_y_power2, trans_z, trans_z_derivative1, trans_z_power2, trans_z_derivative1_power2, rot_x, rot_x_derivative1, rot_x_derivative1_power2, rot_x_power2, rot_y, rot_y_derivative1, rot_y_power2, rot_y_derivative1_power2, rot_z, rot_z_derivative1, rot_z_power2, rot_z_derivative1_power2, motion_outlier00, motion_outlier01, motion_outlier02, motion_outlier03, motion_outlier04, motion_outlier05, motion_outlier06, motion_outlier07, motion_outlier08, motion_outlier09, motion_outlier10, motion_outlier11, motion_outlier12, motion_outlier13, motion_outlier14, motion_outlier15, motion_outlier16, motion_outlier17, motion_outlier18, motion_outlier19, motion_outlier20, motion_outlier21, motion_outlier22, motion_outlier23, motion_outlier24, motion_outlier25, motion_outlier26, motion_outlier27, motion_outlier28, motion_outlier29, motion_outlier30, motion_outlier31, motion_outlier32, motion_outlier33, motion_outlier34, motion_outlier35, motion_outlier36, motion_outlier37, motion_outlier38, motion_outlier39, motion_outlier40, motion_outlier41, motion_outlier42, motion_outlier43, motion_outlier44, motion_outlier45, motion_outlier46, motion_outlier47, motion_outlier48, motion_outlier49, motion_outlier50, motion_outlier51, motion_outlier52, motion_outlier53, motion_outlier54, motion_outlier55, motion_outlier56, motion_outlier57, motion_outlier58, motion_outlier59, motion_outlier60, motion_outlier61, motion_outlier62, motion_outlier63, motion_outlier64, motion_outlier65, motion_outlier66, motion_outlier67, motion_outlier68, motion_outlier69, motion_outlier70, motion_outlier71, motion_outlier72, motion_outlier73, motion_outlier74, motion_outlier75, motion_outlier76, motion_outlier77, motion_outlier78, motion_outlier79, motion_outlier80, motion_outlier81, motion_outlier82, motion_outlier83, motion_outlier84, motion_outlier85, motion_outlier86, motion_outlier87, motion_outlier88, motion_outlier89, motion_outlier90, motion_outlier91, motion_outlier92, motion_outlier93, motion_outlier94, motion_outlier95, motion_outlier96, motion_outlier97, motion_outlier98, motion_outlier99, motion_outlier100, motion_outlier101, motion_outlier102, motion_outlier103, motion_outlier104, motion_outlier105, motion_outlier106, motion_outlier107, motion_outlier108, motion_outlier109, motion_outlier110, motion_outlier111.</p>
+		</details>
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-flirtbbr_run-3_session-4_suffix-bold_task-BDM">
+<h3 class="run-title">Alignment of functional and anatomical MRI data (surface driven)</h3><p class="elem-caption">FSL <code>flirt</code> was used to generate transformations from EPI-space to T1w-space - The white matter mask calculated with FSL <code>fast</code> (brain tissue segmentation) was used for BBR. Note that Nearest Neighbor interpolation is used in the reportlets in order to highlight potential spin-history and other artifacts, whereas final images are resampled using Lanczos interpolation.</p>                    <object class="svg-reportlet" type="image/svg+xml" data="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-3_desc-flirtbbr_bold.svg">
+Problem loading figure sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-3_desc-flirtbbr_bold.svg. If the link below works, please try reloading the report in your browser.</object>
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-3_desc-flirtbbr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-3_desc-flirtbbr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-rois_run-3_session-4_suffix-bold_task-BDM">
+<h3 class="run-title">Brain mask and (anatomical/temporal) CompCor ROIs</h3><p class="elem-caption">Brain mask calculated on the BOLD signal (red contour), along with the regions of interest (ROIs) used for the estimation of physiological and movement confounding components that can be then used as nuisance regressors in analysis.<br /> The <em>anatomical CompCor</em> ROI (magenta contour) is a mask combining CSF and WM (white-matter), where voxels containing a minimal partial volume of GM have been removed.<br /> The <em>temporal CompCor</em> ROI (blue contour) contains the top 2% most variable voxels within the brain mask.<br /> The <em>brain edge</em> (or <em>crown</em>) ROI (green contour) picks signals outside but close to the brain, which are decomposed into 24 principal components.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-3_desc-rois_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-3_desc-rois_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-3_desc-rois_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-compcorvar_run-3_session-4_suffix-bold_task-BDM">
+<h3 class="run-title">Variance explained by t/aCompCor components</h3><p class="elem-caption">The cumulative variance explained by the first k components of the <em>t/aCompCor</em> decomposition, plotted for all values of <em>k</em>. The number of components that must be included in the model in order to explain some fraction of variance in the decomposition mask can be used as a feature selection criterion for confound regression.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-3_desc-compcorvar_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-3_desc-compcorvar_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-3_desc-compcorvar_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-carpetplot_run-3_session-4_suffix-bold_task-BDM">
+<h3 class="run-title">BOLD Summary</h3><p class="elem-caption">Summary statistics are plotted, which may reveal trends or artifacts in the BOLD data. Global signals calculated within the whole-brain (GS), within the white-matter (WM) and within cerebro-spinal fluid (CSF) show the mean BOLD signal in their corresponding masks. DVARS and FD show the standardized DVARS and framewise-displacement measures for each time point.<br /> A carpet plot shows the time series for all voxels within the brain mask, or if <code>--cifti-output</code> was enabled, all grayordinates. See the figure legend for specific color mappings. "Ctx" = cortex, "Cb" = cerebellum, "WM" = white matter, "CSF" = cerebrospinal fluid. "d" and "s" prefixes indicate "deep" and "shallow" relative to the cortex. "Edge" indicates regions just outside the brain.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-3_desc-carpetplot_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-3_desc-carpetplot_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-3_desc-carpetplot_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-None_datatype-figures_desc-confoundcorr_run-3_session-4_suffix-bold_task-BDM">
+<h3 class="run-title">Correlations among nuisance regressors</h3><p class="elem-caption">Left: Heatmap summarizing the correlation structure among confound variables.
+(Cosine bases and PCA-derived CompCor components are inherently orthogonal.)
+Right: magnitude of the correlation between each confound time series and the
+mean global signal. Strong correlations might be indicative of partial volume
+effects and can inform decisions about feature orthogonalization prior to
+confound regression.
+</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-3_desc-confoundcorr_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-3_desc-confoundcorr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-4_task-BDM_run-3_desc-confoundcorr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-longtr_datatype-figures_desc-summary_run-None_session-4_suffix-bold_task-rest">
+<h2 class="sub-report-group">Reports for: session <span class="bids-entity">4</span>, task <span class="bids-entity">rest</span>, acquisition <span class="bids-entity">longtr</span>.</h2>                    <details open>
+		<summary>Summary</summary>
+		<ul class="elem-desc">
+			<li>Original orientation: LAS</li>
+			<li>Repetition time (TR): 2.75s</li>
+			<li>Phase-encoding (PE) direction: Could not be determined - assuming Anterior-Posterior</li>
+			<li>Single-echo EPI sequence.</li>
+			<li>Slice timing correction: Not applied</li>
+			<li>Susceptibility distortion correction: None</li>
+			<li>Registration: FSL <code>flirt</code> with boundary-based registration (BBR) metric - 6 dof</li>
+			<li>Non-steady-state volumes: 0</li>
+		</ul>
+		</details>
+		<details>
+			<summary>Confounds collected</summary><br />
+			<p>global_signal, global_signal_derivative1, global_signal_derivative1_power2, global_signal_power2, csf, csf_derivative1, csf_derivative1_power2, csf_power2, white_matter, white_matter_derivative1, white_matter_derivative1_power2, white_matter_power2, csf_wm, tcompcor, std_dvars, dvars, framewise_displacement, rmsd, t_comp_cor_00, t_comp_cor_01, t_comp_cor_02, c_comp_cor_00, c_comp_cor_01, c_comp_cor_02, c_comp_cor_03, c_comp_cor_04, c_comp_cor_05, c_comp_cor_06, c_comp_cor_07, c_comp_cor_08, w_comp_cor_00, w_comp_cor_01, w_comp_cor_02, w_comp_cor_03, w_comp_cor_04, w_comp_cor_05, w_comp_cor_06, w_comp_cor_07, w_comp_cor_08, w_comp_cor_09, w_comp_cor_10, w_comp_cor_11, w_comp_cor_12, w_comp_cor_13, w_comp_cor_14, w_comp_cor_15, w_comp_cor_16, w_comp_cor_17, w_comp_cor_18, w_comp_cor_19, w_comp_cor_20, w_comp_cor_21, w_comp_cor_22, w_comp_cor_23, w_comp_cor_24, w_comp_cor_25, w_comp_cor_26, w_comp_cor_27, w_comp_cor_28, w_comp_cor_29, w_comp_cor_30, w_comp_cor_31, w_comp_cor_32, w_comp_cor_33, w_comp_cor_34, w_comp_cor_35, w_comp_cor_36, w_comp_cor_37, w_comp_cor_38, w_comp_cor_39, w_comp_cor_40, w_comp_cor_41, w_comp_cor_42, a_comp_cor_00, a_comp_cor_01, a_comp_cor_02, a_comp_cor_03, a_comp_cor_04, a_comp_cor_05, a_comp_cor_06, a_comp_cor_07, a_comp_cor_08, a_comp_cor_09, a_comp_cor_10, a_comp_cor_11, a_comp_cor_12, a_comp_cor_13, a_comp_cor_14, a_comp_cor_15, a_comp_cor_16, a_comp_cor_17, a_comp_cor_18, a_comp_cor_19, a_comp_cor_20, a_comp_cor_21, a_comp_cor_22, a_comp_cor_23, a_comp_cor_24, a_comp_cor_25, a_comp_cor_26, a_comp_cor_27, a_comp_cor_28, a_comp_cor_29, a_comp_cor_30, a_comp_cor_31, a_comp_cor_32, a_comp_cor_33, a_comp_cor_34, a_comp_cor_35, a_comp_cor_36, a_comp_cor_37, a_comp_cor_38, a_comp_cor_39, a_comp_cor_40, a_comp_cor_41, a_comp_cor_42, edge_comp_00, edge_comp_01, edge_comp_02, edge_comp_03, edge_comp_04, edge_comp_05, edge_comp_06, edge_comp_07, edge_comp_08, edge_comp_09, edge_comp_10, edge_comp_11, edge_comp_12, edge_comp_13, edge_comp_14, edge_comp_15, edge_comp_16, edge_comp_17, edge_comp_18, edge_comp_19, edge_comp_20, edge_comp_21, edge_comp_22, edge_comp_23, cosine00, cosine01, cosine02, cosine03, cosine04, cosine05, cosine06, cosine07, trans_x, trans_x_derivative1, trans_x_derivative1_power2, trans_x_power2, trans_y, trans_y_derivative1, trans_y_derivative1_power2, trans_y_power2, trans_z, trans_z_derivative1, trans_z_power2, trans_z_derivative1_power2, rot_x, rot_x_derivative1, rot_x_derivative1_power2, rot_x_power2, rot_y, rot_y_derivative1, rot_y_power2, rot_y_derivative1_power2, rot_z, rot_z_derivative1, rot_z_power2, rot_z_derivative1_power2, motion_outlier00, motion_outlier01, motion_outlier02, motion_outlier03, motion_outlier04, motion_outlier05, motion_outlier06, motion_outlier07, motion_outlier08, motion_outlier09, motion_outlier10, motion_outlier11, motion_outlier12, motion_outlier13, motion_outlier14, motion_outlier15, motion_outlier16.</p>
+		</details>
+        </div>
+        <div id="acquisition-longtr_datatype-figures_desc-flirtbbr_run-None_session-4_suffix-bold_task-rest">
+<h3 class="run-title">Alignment of functional and anatomical MRI data (surface driven)</h3><p class="elem-caption">FSL <code>flirt</code> was used to generate transformations from EPI-space to T1w-space - The white matter mask calculated with FSL <code>fast</code> (brain tissue segmentation) was used for BBR. Note that Nearest Neighbor interpolation is used in the reportlets in order to highlight potential spin-history and other artifacts, whereas final images are resampled using Lanczos interpolation.</p>                    <object class="svg-reportlet" type="image/svg+xml" data="./sub-RND050/figures/sub-RND050_ses-4_task-rest_acq-longtr_desc-flirtbbr_bold.svg">
+Problem loading figure sub-RND050/figures/sub-RND050_ses-4_task-rest_acq-longtr_desc-flirtbbr_bold.svg. If the link below works, please try reloading the report in your browser.</object>
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-4_task-rest_acq-longtr_desc-flirtbbr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-4_task-rest_acq-longtr_desc-flirtbbr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-longtr_datatype-figures_desc-rois_run-None_session-4_suffix-bold_task-rest">
+<h3 class="run-title">Brain mask and (anatomical/temporal) CompCor ROIs</h3><p class="elem-caption">Brain mask calculated on the BOLD signal (red contour), along with the regions of interest (ROIs) used for the estimation of physiological and movement confounding components that can be then used as nuisance regressors in analysis.<br /> The <em>anatomical CompCor</em> ROI (magenta contour) is a mask combining CSF and WM (white-matter), where voxels containing a minimal partial volume of GM have been removed.<br /> The <em>temporal CompCor</em> ROI (blue contour) contains the top 2% most variable voxels within the brain mask.<br /> The <em>brain edge</em> (or <em>crown</em>) ROI (green contour) picks signals outside but close to the brain, which are decomposed into 24 principal components.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-4_task-rest_acq-longtr_desc-rois_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-4_task-rest_acq-longtr_desc-rois_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-4_task-rest_acq-longtr_desc-rois_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-longtr_datatype-figures_desc-compcorvar_run-None_session-4_suffix-bold_task-rest">
+<h3 class="run-title">Variance explained by t/aCompCor components</h3><p class="elem-caption">The cumulative variance explained by the first k components of the <em>t/aCompCor</em> decomposition, plotted for all values of <em>k</em>. The number of components that must be included in the model in order to explain some fraction of variance in the decomposition mask can be used as a feature selection criterion for confound regression.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-4_task-rest_acq-longtr_desc-compcorvar_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-4_task-rest_acq-longtr_desc-compcorvar_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-4_task-rest_acq-longtr_desc-compcorvar_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-longtr_datatype-figures_desc-carpetplot_run-None_session-4_suffix-bold_task-rest">
+<h3 class="run-title">BOLD Summary</h3><p class="elem-caption">Summary statistics are plotted, which may reveal trends or artifacts in the BOLD data. Global signals calculated within the whole-brain (GS), within the white-matter (WM) and within cerebro-spinal fluid (CSF) show the mean BOLD signal in their corresponding masks. DVARS and FD show the standardized DVARS and framewise-displacement measures for each time point.<br /> A carpet plot shows the time series for all voxels within the brain mask, or if <code>--cifti-output</code> was enabled, all grayordinates. See the figure legend for specific color mappings. "Ctx" = cortex, "Cb" = cerebellum, "WM" = white matter, "CSF" = cerebrospinal fluid. "d" and "s" prefixes indicate "deep" and "shallow" relative to the cortex. "Edge" indicates regions just outside the brain.</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-4_task-rest_acq-longtr_desc-carpetplot_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-4_task-rest_acq-longtr_desc-carpetplot_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-4_task-rest_acq-longtr_desc-carpetplot_bold.svg</a>
+</div>
+
+        </div>
+        <div id="acquisition-longtr_datatype-figures_desc-confoundcorr_run-None_session-4_suffix-bold_task-rest">
+<h3 class="run-title">Correlations among nuisance regressors</h3><p class="elem-caption">Left: Heatmap summarizing the correlation structure among confound variables.
+(Cosine bases and PCA-derived CompCor components are inherently orthogonal.)
+Right: magnitude of the correlation between each confound time series and the
+mean global signal. Strong correlations might be indicative of partial volume
+effects and can inform decisions about feature orthogonalization prior to
+confound regression.
+</p>                    <img class="svg-reportlet" src="./sub-RND050/figures/sub-RND050_ses-4_task-rest_acq-longtr_desc-confoundcorr_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-RND050/figures/sub-RND050_ses-4_task-rest_acq-longtr_desc-confoundcorr_bold.svg" target="_blank">sub-RND050/figures/sub-RND050_ses-4_task-rest_acq-longtr_desc-confoundcorr_bold.svg</a>
+</div>
+
+        </div>
+    </div>
+    <div id="About">
+    <h1 class="sub-report-title">About</h1>
+        <div id="datatype-figures_desc-about_suffix-T1w">
+                    <ul>
+		<li>fMRIPrep version: 23.0.2</li>
+		<li>fMRIPrep command: <code>/opt/conda/bin/fmriprep /data /out participant --participant-label RND050 --skip-bids-validation --md-only-boilerplate --fs-no-reconall --nthreads 4 --stop-on-first-crash --mem_mb 15000 -w /scratch --output-spaces MNI152NLin2009cAsym:res-2</code></li>
+		<li>Date preprocessed: 2023-06-01 01:13:35 +0000</li>
+	</ul>
+</div>
+        </div>
+    </div>
+
+<div id="boilerplate">
+    <h1 class="sub-report-title">Methods</h1>
+    <p>We kindly ask to report results preprocessed with this tool using the following
+       boilerplate.</p>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="Markdown-tab" data-toggle="tab" href="#Markdown" role="tab" aria-controls="Markdown" aria-selected="true">Markdown</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade active show" id="Markdown" role="tabpanel" aria-labelledby="Markdown-tab"><pre>
+Results included in this manuscript come from preprocessing
+performed using *fMRIPrep* 23.0.2
+(@fmriprep1; @fmriprep2; RRID:SCR_016216),
+which is based on *Nipype* 1.8.6
+(@nipype1; @nipype2; RRID:SCR_002502).
+
+
+Anatomical data preprocessing
+
+: A total of 4 T1-weighted (T1w) images were found within the input
+BIDS dataset.
+All of them were corrected for intensity non-uniformity (INU)
+with `N4BiasFieldCorrection` [@n4], distributed with ANTs 2.3.3 [@ants, RRID:SCR_004757].
+The T1w-reference was then skull-stripped with a *Nipype* implementation of
+the `antsBrainExtraction.sh` workflow (from ANTs), using OASIS30ANTs
+as target template.
+Brain tissue segmentation of cerebrospinal fluid (CSF),
+white-matter (WM) and gray-matter (GM) was performed on
+the brain-extracted T1w using `fast` [FSL 6.0.5.1:57b01774, RRID:SCR_002823,
+@fsl_fast].
+An anatomical T1w-reference map was computed after registration of
+4 T1w images (after INU-correction) using
+`mri_robust_template` [FreeSurfer 7.3.2, @fs_template].
+Volume-based spatial normalization to one standard space (MNI152NLin2009cAsym) was performed through
+nonlinear registration with `antsRegistration` (ANTs 2.3.3),
+using brain-extracted versions of both T1w reference and the T1w template.
+The following template was were selected for spatial normalization
+and accessed with *TemplateFlow* [23.0.0, @templateflow]:
+*ICBM 152 Nonlinear Asymmetrical template version 2009c* [@mni152nlin2009casym, RRID:SCR_008796; TemplateFlow ID: MNI152NLin2009cAsym].
+
+Functional data preprocessing
+
+: For each of the 16 BOLD runs found per subject (across all
+tasks and sessions), the following preprocessing was performed.
+First, a reference volume and its skull-stripped version were generated
+ using a custom
+methodology of *fMRIPrep*.
+Head-motion parameters with respect to the BOLD reference
+(transformation matrices, and six corresponding rotation and translation
+parameters) are estimated before any spatiotemporal filtering using
+`mcflirt` [FSL 6.0.5.1:57b01774, @mcflirt].
+The BOLD time-series (including slice-timing correction when applied)
+were resampled onto their original, native space by applying
+the transforms to correct for head-motion.
+These resampled BOLD time-series will be referred to as *preprocessed
+BOLD in original space*, or just *preprocessed BOLD*.
+The BOLD reference was then co-registered to the T1w reference using
+`mri_coreg` (FreeSurfer) followed by `flirt` [FSL 6.0.5.1:57b01774, @flirt]
+with the boundary-based registration [@bbr] cost-function.
+Co-registration was configured with six degrees of freedom.
+Several confounding time-series were calculated based on the
+*preprocessed BOLD*: framewise displacement (FD), DVARS and
+three region-wise global signals.
+FD was computed using two formulations following Power (absolute sum of
+relative motions, @power_fd_dvars) and Jenkinson (relative root mean square
+displacement between affines, @mcflirt).
+FD and DVARS are calculated for each functional run, both using their
+implementations in *Nipype* [following the definitions by @power_fd_dvars].
+The three global signals are extracted within the CSF, the WM, and
+the whole-brain masks.
+Additionally, a set of physiological regressors were extracted to
+allow for component-based noise correction [*CompCor*, @compcor].
+Principal components are estimated after high-pass filtering the
+*preprocessed BOLD* time-series (using a discrete cosine filter with
+128s cut-off) for the two *CompCor* variants: temporal (tCompCor)
+and anatomical (aCompCor).
+tCompCor components are then calculated from the top 2% variable
+voxels within the brain mask.
+For aCompCor, three probabilistic masks (CSF, WM and combined CSF+WM)
+are generated in anatomical space.
+The implementation differs from that of Behzadi et al. in that instead
+of eroding the masks by 2 pixels on BOLD space, a mask of pixels that
+likely contain a volume fraction of GM is subtracted from the aCompCor masks.
+This mask is obtained by thresholding the corresponding partial volume map at 0.05, and it ensures components are not extracted
+from voxels containing a minimal fraction of GM.
+Finally, these masks are resampled into BOLD space and binarized by
+thresholding at 0.99 (as in the original implementation).
+Components are also calculated separately within the WM and CSF masks.
+For each CompCor decomposition, the *k* components with the largest singular
+values are retained, such that the retained components' time series are
+sufficient to explain 50 percent of variance across the nuisance mask (CSF,
+WM, combined, or temporal). The remaining components are dropped from
+consideration.
+The head-motion estimates calculated in the correction step were also
+placed within the corresponding confounds file.
+The confound time series derived from head motion estimates and global
+signals were expanded with the inclusion of temporal derivatives and
+quadratic terms for each [@confounds_satterthwaite_2013].
+Frames that exceeded a threshold of 0.5 mm FD or
+1.5 standardized DVARS were annotated as motion outliers.
+Additional nuisance timeseries are calculated by means of principal components
+analysis of the signal found within a thin band (*crown*) of voxels around
+the edge of the brain, as proposed by [@patriat_improved_2017].
+The BOLD time-series were resampled into standard space,
+generating a *preprocessed BOLD run in MNI152NLin2009cAsym space*.
+First, a reference volume and its skull-stripped version were generated
+ using a custom
+methodology of *fMRIPrep*.
+All resamplings can be performed with *a single interpolation
+step* by composing all the pertinent transformations (i.e. head-motion
+transform matrices, susceptibility distortion correction when available,
+and co-registrations to anatomical and output spaces).
+Gridded (volumetric) resamplings were performed using `antsApplyTransforms` (ANTs),
+configured with Lanczos interpolation to minimize the smoothing
+effects of other kernels [@lanczos].
+Non-gridded (surface) resamplings were performed using `mri_vol2surf`
+(FreeSurfer).
+
+
+Many internal operations of *fMRIPrep* use
+*Nilearn* 0.9.1 [@nilearn, RRID:SCR_001362],
+mostly within the functional processing workflow.
+For more details of the pipeline, see [the section corresponding
+to workflows in *fMRIPrep*'s documentation](https://fmriprep.readthedocs.io/en/latest/workflows.html "FMRIPrep's documentation").
+
+
+### Copyright Waiver
+
+The above boilerplate text was automatically generated by fMRIPrep
+with the express intention that users should copy and paste this
+text into their manuscripts *unchanged*.
+It is released under the [CC0](https://creativecommons.org/publicdomain/zero/1.0/) license.
+
+### References
+
+</pre>
+</div>
+    </div>
+</div>
+
+<div id="errors">
+    <h1 class="sub-report-title">Errors</h1>
+    <p>No errors to report!</p>
+</div>
+
+
+<script type="text/javascript">
+    function toggle(id) {
+        var element = document.getElementById(id);
+        if(element.style.display == 'block')
+            element.style.display = 'none';
+        else
+            element.style.display = 'block';
+    }
+</script>
+</body>
+</html>
