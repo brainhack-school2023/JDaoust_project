@@ -7,15 +7,20 @@
 #SBATCH --time=0-00:16           # time (DD-HH:MM)
 #SBATCH --job-name="BIDS convert"
 
+#This script were wrtting to use on Alliance Canada. 
+#This script convert all raw files from data/raw/* to nifti or json with dcm2niix and rename files to fit with BIDS format.
+#Bold nifti files were copy-paste from our project directory backup to this project and rename to fit with BIDS format
+
 module load dcm2niix
 
-for file in ../data/raw/*; do
+
+for file in ../data/raw/*; do  #find the session number
   name=$(echo $file| cut  -d'/' -f 4)
   if [[ ${name:6} = 'flw24' ]]; then
     session=4
   elif [[ ${name:6} = 'flw12' ]]; then
     session=3
-  elif [[ ${name:6} = 'flw2' && ${name::3} = 'RGC' ]]; then
+  elif [[ ${name:6} = 'flw2' && ${name::3} = 'RGC' ]]; then  #RGC participant had a different timeline
     session=x
   elif [[ ${name:6} = '' ]]; then 
     session=1
