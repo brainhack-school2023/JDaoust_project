@@ -49,12 +49,7 @@ for file in ../data/raw/*; do
   gzip ~/JDaoust_project/data/raw_BIDS/sub-${name::6}/ses-${session}/func/sub-${name::6}_ses-${session}_task-BDM_run-3_bold.nii
   mv ~/JDaoust_project/data/raw_BIDS/sub-${name::6}/ses-${session}/*FOOD3*.json ~/JDaoust_project/data/raw_BIDS/sub-${name::6}/ses-${session}/func/sub-${name::6}_ses-${session}_task-BDM_run-3_bold.json
   
-  #RS
-  mv ~/JDaoust_project/data/raw_BIDS/sub-${name::6}/ses-${session}/*REST*.nii.gz ~/JDaoust_project/data/raw_BIDS/sub-${name::6}/ses-${session}/func/sub-${name::6}_ses-${session}_task-rest_acq-longtr_bold.nii.gz
-  mv ~/JDaoust_project/data/raw_BIDS/sub-${name::6}/ses-${session}/*REST*.json ~/JDaoust_project/data/raw_BIDS/sub-${name::6}/ses-${session}/func/sub-${name::6}_ses-${session}_task-rest_acq-longtr_bold.json
-  
   sed -i '$s/}/,\n"TaskName":"BDM"}/' ~/JDaoust_project/data/raw_BIDS/sub-${name::6}/ses-${session}/func/sub-${name::6}_ses-${session}_task-BDM_run*.json
-  sed -i '$s/}/,\n"TaskName":"rest"}/' ~/JDaoust_project/data/raw_BIDS/sub-${name::6}/ses-${session}/func/sub-${name::6}_ses-${session}_task-rest*.json
   #jq 'del(.ImageOrientationPatientDICOM)' ~/JDaoust_project/data/raw_BIDS/sub-${name::6}/ses-${session}/func/sub-${name::6}_ses-${session}_task-BDM_run*.json
   #jq 'del(.ImageOrientationPatientDICOM)' ~/JDaoust_project/data/raw_BIDS/sub-${name::6}/ses-${session}/anat/sub-${name::6}_ses-${session}_T1w.json
 
