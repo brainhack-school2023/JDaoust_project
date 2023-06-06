@@ -1,6 +1,6 @@
 The raw dataset (in DICOM) was obtained with an MRI Philips 3T at Centre de recherche universitaire de cardiologie et de pneumologie de Québec (CRIUCPQ).
 
-Description: Longitudinal dataset (4 visits: baseline and 4, 12 and 24 months after weight loss induce by bariatric surgery) of fMRI with the Becker-DeGroot-Marsharck auction task. The fMRI data for each session and participant were stock in a folder on Alliance Canada (folder's name example: RND050, RND050flw4, RND050flw12, RND050flw24, etc.)
+Description: Longitudinal dataset (4 visits: baseline and 4, 12 and 24 months after weight loss induce by bariatric surgery) of which 3 runs fMRI with the Becker-DeGroot-Marsharck auction task (~10min/run) were collected. The fMRI data of the 3 runs/session/participant were stock in a folder on Alliance Canada (folder's name example: RND050, RND050flw4, RND050flw12, RND050flw24, etc.)
 
 Study date:
 2016: initial recrutment
