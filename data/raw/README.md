@@ -1,6 +1,6 @@
-This dataset was obtained by MRI Philips 3T at Centre de recherche universitaire de cardiologie et de pneumologie de Québec (CRIUCPQ).
+This dataset was obtained with an MRI Philips 3T at Centre de recherche universitaire de cardiologie et de pneumologie de Québec (CRIUCPQ).
 
-Description: Longitudinal dataset (4 visits: baseline and 4, 12 and 24 months after weight loss induce by bariatric surgery)) of fMRI with the Becker-DeGroot-Marsharck auction task)
+Description: Longitudinal dataset (4 visits: baseline and 4, 12 and 24 months after weight loss induce by bariatric surgery) of fMRI with the Becker-DeGroot-Marsharck auction task
 
 Study date:
 2016: initial recrutment
