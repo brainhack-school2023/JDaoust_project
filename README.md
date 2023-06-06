@@ -73,7 +73,7 @@ The results of my project was mostly:
 First, I was a bit disappointed not to have gone far in analyzing my data. But I realized that thanks to this school, I finally have the necessary notions to standardize my data and to proceed with the analysis of my data. I have learned more than if I had simply worked on analyses in nilearn.  
 
 ### Acknowledgement
-I will like to thanks all the organizators of the School and all the TAs. Thanks for this great opportunity to learn.
+I would like to thanks all the organizators of the School and all the TAs. Thanks for this great opportunity to learn.
 
 ### References
 Carnell S, Gibson C, Benson L, Ochner CN, Geliebter A. Neuroimaging and obesity: current knowledge and future directions. Obes Rev. 2012 Jan;13(1):43-56. doi: 10.1111/j.1467-789X.2011.00927.x. Epub 2011 Sep 8. PMID: 21902800; PMCID: PMC3241905.
