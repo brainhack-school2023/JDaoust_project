@@ -47,7 +47,7 @@ At the end of this project, I will have:
 1) Jupyter notebook scripts;
 2) Figures to visualized my results; 
 3) Use Github to put repository of my pipelines to do statistical analyses and visualization of results;
-4) Used Alliance Canada on which I will be able to share and structure data and scripts.
+4) Use Alliance Canada on which I will be able to share and structure data and scripts.
 
 ## Results
 ---
