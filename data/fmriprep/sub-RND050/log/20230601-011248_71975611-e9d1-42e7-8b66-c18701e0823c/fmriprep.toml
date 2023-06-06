@@ -1,0 +1,84 @@
+[environment]
+cpu_count = 12
+exec_docker_version = "23.0.5"
+exec_env = "fmriprep-docker"
+free_mem = 0.1
+overcommit_policy = "heuristic"
+overcommit_limit = "50%"
+nipype_version = "1.8.6"
+templateflow_version = "23.0.0"
+version = "23.0.2"
+
+[execution]
+bids_dir = "/data"
+bids_database_dir = "/scratch/20230601-011248_71975611-e9d1-42e7-8b66-c18701e0823c/bids_db"
+bids_description_hash = "19d54021f5b8f9c950aaf2662536437541559db6957980224f5e06841f26ad9f"
+boilerplate_only = false
+sloppy = false
+debug = []
+fmriprep_dir = "/out"
+fs_license_file = "/opt/freesurfer/license.txt"
+fs_subjects_dir = "/out/sourcedata/freesurfer"
+layout = "BIDS Layout: .../data | Subjects: 2 | Sessions: 8 | Runs: 6"
+log_dir = "/out/logs"
+log_level = 25
+low_mem = false
+md_only_boilerplate = true
+notrack = false
+track_carbon = false
+country_code = "CAN"
+output_dir = "/out"
+me_output_echos = false
+output_layout = "bids"
+output_spaces = "MNI152NLin2009cAsym:res-2"
+reports_only = false
+run_uuid = "20230601-011248_71975611-e9d1-42e7-8b66-c18701e0823c"
+participant_label = [ "RND050",]
+templateflow_home = "/home/fmriprep/.cache/templateflow"
+work_dir = "/scratch"
+write_graph = false
+
+[workflow]
+anat_only = false
+aroma_err_on_warn = false
+aroma_melodic_dim = -200
+bold2t1w_dof = 6
+bold2t1w_init = "register"
+cifti_output = false
+fmap_bspline = false
+force_syn = false
+hires = true
+ignore = []
+longitudinal = false
+medial_surface_nan = false
+project_goodvoxels = false
+regressors_all_comps = false
+regressors_dvars_th = 1.5
+regressors_fd_th = 0.5
+run_reconall = false
+skull_strip_fixed_seed = false
+skull_strip_template = "OASIS30ANTs"
+skull_strip_t1w = "force"
+slice_time_ref = 0.5
+spaces = "MNI152NLin2009cAsym:res-2"
+use_aroma = false
+use_syn_sdc = false
+
+[nipype]
+crashfile_format = "txt"
+get_linked_libs = false
+memory_gb = 15.0
+nprocs = 4
+omp_nthreads = 3
+plugin = "MultiProc"
+resource_monitor = false
+stop_on_first_crash = true
+
+[seeds]
+master = 44343
+ants = 39241
+numpy = 16833
+
+[nipype.plugin_args]
+maxtasksperchild = 1
+raise_insufficient = false
