@@ -1,0 +1,41 @@
+{
+  "Name": "Gut-Brain",
+  "BIDSVersion": "dcm2niix, v1.0.20200331",
+  "DatasetType": "raw",
+  "License": "",
+  "Authors": [
+    "",
+    ""
+  ],
+  "Acknowledgements": "",
+  "HowToAcknowledge": "",
+  "Funding": [
+    "",
+    ""
+  ],
+  "EthicsApprovals": [
+    ""
+  ],
+  "ReferencesAndLinks": [
+    "",
+    ""
+  ],
+  "DatasetDOI": "",
+  "HEDVersion": "",
+  "GeneratedBy": [
+    {
+      "Name": "",
+      "Version": "",
+      "Container": {
+        "Type": "",
+        "Tag": ""
+      }
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DatasetLinks": "../raw",
+      "Version": ""
+    }
+  ]
+}
