@@ -7,7 +7,7 @@
 #SBATCH --time=0-00:16           # time (DD-HH:MM)
 #SBATCH --job-name="BIDS convert"
 
-#This script were wrtting to use on Alliance Canada. 
+#This script were writting to use on Alliance Canada. 
 #This script convert all raw files from data/raw/* to nifti or json with dcm2niix and rename files to fit with BIDS format.
 #Bold nifti files were copy-paste from our project directory backup to this project and rename to fit with BIDS format
 
