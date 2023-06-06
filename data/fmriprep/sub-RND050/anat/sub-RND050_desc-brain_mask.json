@@ -1,0 +1,9 @@
+{
+  "RawSources": [
+    "sub-RND050/ses-1/anat/sub-RND050_ses-1_T1w.nii.gz",
+    "sub-RND050/ses-2/anat/sub-RND050_ses-2_T1w.nii.gz",
+    "sub-RND050/ses-3/anat/sub-RND050_ses-3_T1w.nii.gz",
+    "sub-RND050/ses-4/anat/sub-RND050_ses-4_T1w.nii.gz"
+  ],
+  "Type": "Brain"
+}
