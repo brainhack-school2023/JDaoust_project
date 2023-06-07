@@ -48,8 +48,8 @@ The dataset was collected from 2016 to now at Quebec Heart and Lungs Institute. 
 At the end of this project, I will have:
 1) Python scripts to analyse brain food cue reactivity;
 2) Figures of my results; 
-3) A repository of my pipelines to do statistical analyses and visualization of results;
-4) Scripts to organize data on Alliance Canada.
+3) A repository on GitHub to share my ideas;
+4) Scripts on Alliance Canada that can be used by all members of my lab.
 
 ## Results
 ---
