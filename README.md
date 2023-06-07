@@ -31,49 +31,52 @@ image: ""
 ---
 ### Background
 
-Neuroimaging is widely used to understand neurophysiological processes associated with obesity and responsiveness to weight loss interventions (Carnell et al. 2012). Functional MRI studies examining the food cue reactivity in obesity compared to lean individuals have shown BOLD differences in brain regions involved in energy regulation, cognitive control and reward valuation (Harding et al. 2018). These alterations may be implicated in the development of obesity, as well as a predictor of lower success in weight loss intervention (Hermann et al. 2019).  However, it is unclear if intervention targeting weight loss and cardiometabolic improvement, such as bariatric surgery, could reverse these alterations in brain functional reactivity to food cues. My project aims to identify brain regions that react to snacks images in individuals with severe obesity, and examine changes in food cue reactivity after weight loss induced by bariatric surgery.
+Neuroimaging is widely used to understand neurophysiological processes associated with obesity and responsiveness to weight loss interventions (Carnell et al. 2012). Functional MRI studies examining the food cue reactivity in obesity compared to lean individuals have shown BOLD differences in brain regions involved in energy regulation, cognitive control and reward valuation (Harding et al. 2018). These alterations may be implicated in the development of obesity, as well as a predictor of lower success in weight loss intervention (Hermann et al. 2019). However, it is unclear if intervention targeting weight loss and cardiometabolic improvement, such as bariatric surgery, could reverse these alterations in brain functional reactivity to food cues. My project aims to identify brain regions that react to snack images in individuals with severe obesity, and examine changes in food cue reactivity after weight loss induced by bariatric surgery.
 
 ### Tools
-This project :
+This project will use:
 1) Git and Github to share methods and results;
-2) Alliance Canada for executing first level of analyses; 
-3) Python and Jupyter notebooks package such as nilearn and scikit-learn.
+2) Alliance Canada for executing scripts; 
+3) Python packages, such as nilearn, for food cue reactivity analyses.
 
 ### Data
-Dataset was collected from 2016 to now at Quebec Heart and Lungs Institute. Ninety-four participants with severe obesity scheduled to undergo bariatric surgery were recruited. Participants were scanned prior to, 4, 12 and 24 months after bariatric surgery. For this project, T1 and three runs of fMRI with Becker-deGroot-Marshack auction task (duration: 10 minutes 27 seconds) will be used. Forty-five randomized images (15 high-sweet, 15 high-salt and 15 low caloric density) were presented to participants for 4 seconds. The auction part will not be evaluated in this project.
+The dataset was collected from 2016 to now at Quebec Heart and Lungs Institute. Ninety-four participants with severe obesity scheduled to undergo bariatric surgery were recruited. Participants were scanned prior to, 4, 12 and 24 months after bariatric surgery. For this project, a T1 and three fMRI runs with Becker-DeGroot-Marsharck auction task (duration: 10 minutes 27 seconds) will be used. Forty-five randomized images (15 high-sweet, 15 high-salt and 15 low caloric density) were presented to participants for 4 seconds. Participant must bid between 0 to 5$ for each snacks in the next 4s. The auction part will not be evaluated in this project.
 
 ### Project deliverables 
 At the end of this project, I will have:
-1) Jupyter notebook scripts;
-2) Figures to visualized my results; 
-3) Use Github to put repository of my pipelines to do statistical analyses and visualization of results;
-4) Use Alliance Canada on which I will be able to share and structure data and scripts.
+1) Python scripts to analyse brain food cue reactivity;
+2) Figures of my results; 
+3) A repository of my pipelines to do statistical analyses and visualization of results;
+4) Scripts to organize data on Alliance Canada.
 
 ## Results
 ---
 ### Progress overview
-This project  
+First, this project involved correcting the format of my dataset. I had to convert it to BIDS format and preprocess the Nifti files with fmriprep. These steps took longer than expected. So far, only one participant's files have been converted to BIDS format and preprocessed. However, I was able to run my first-level general linear model on this participant and analyze the contrast between high-calorie and low-calorie snacks. 
 
 ### Tools I learned during this project
-1) dcm2niix: I learned how to convert dicom data to nifti and what I must check to validate that the convertion went well
-2) BIDS-validator: I learned how to standardize a dataset to a BIDS dataset format
-3) fmriprep: I learned how to execute fmriprep and what is the output after the execution
-4) Nilearn: I learned how to use nilearn on jupiter notebook to visualize data and examine the contrast of high vs low calorie food cues in a one participant's run.
-5) Alliance Canada: I learned how to manage time, cpus, and memory to run a bash file
-6) Github: Before this school, I had trouble using it. But now, I'm very glad to know how to use it and how it could help me to produce reproductible research.    
+1) [dcm2niix](https://github.com/rordenlab/dcm2niix): I learned how to convert dicom data to nifti and what I must check to validate that the convertion went well
+2) [BIDS-validator](https://bids-standard.github.io/bids-validator/): I learned how to standardize a dataset to a BIDS dataset format
+3) [fmriprep](https://fmriprep.org/en/stable/): I learned how to execute fmriprep and what is the output after the execution
+4) [Nilearn](https://nilearn.github.io/stable/index.html): I learned how to use nilearn on jupiter notebook to visualize data and examine the contrast of high vs low calorie food cues in a one participant's run.
+5) [Alliance Canada](https://alliancecan.ca/fr): I learned how to manage time, cpus, and memory to run a bash file
+6) [Github](https://github.com/): Before this school, I had trouble using it. But now, I'm very glad to know how to use it and how it could help me to produce reproductible research.  
 
 ### Deliverables
 The results of my project was mostly:
-1) BIDS transformation of my dataset to better use standardized pipeline
-2) Use fmriprep to had clean and operationnal datasets
+1) BIDS transformation of one participant's file to better use standardized pipeline;
+2) Use fmriprep to had clean preprocessed data for one participant;
 3) Create Alliance Canada scripts that could be share to all members of my lab
 4) Use nilearn from jupiter notebook to visualize contrast for high vs low calorie food cues
 
+### Next steps
+For this project, I'll have to convert all my dataset into a BIDS format and execute fmriprep on my Nifti files using Alliance Canada. Then, I would be able to go further in my analysis. 
+
 ### Conclusion
-First, I was a bit disappointed not to have gone far in analyzing my data. But I realized that thanks to this school, I finally have the necessary notions to standardize my data and to proceed with the analysis of my data. I have learned more than if I had simply worked on analyses in nilearn.  
+First, I was a bit disappointed not to have gone far in analyzing my data. But I realized that thanks to this school, I finally have the necessary notions to standardize my data and to proceed with the analysis of my data. I have learned more than if I had simply worked on analyses in Nilearn.  
 
 ### Acknowledgement
-I would like to thanks all the organizators of the School and all the TAs. Thanks for this great opportunity to learn.
+I would like to thanks all the Brainhack School organizators and all the crew. Mostly, thanks for this awesome opportunity!
 
 ### References
 Carnell S, Gibson C, Benson L, Ochner CN, Geliebter A. Neuroimaging and obesity: current knowledge and future directions. Obes Rev. 2012 Jan;13(1):43-56. doi: 10.1111/j.1467-789X.2011.00927.x. Epub 2011 Sep 8. PMID: 21902800; PMCID: PMC3241905.
