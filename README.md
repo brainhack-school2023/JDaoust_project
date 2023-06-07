@@ -61,8 +61,8 @@ First, this project involved correcting the format of my dataset. I had to conve
 2) [BIDS-validator](https://bids-standard.github.io/bids-validator/): I learned how to standardize a dataset to a BIDS dataset format
 3) [fmriprep](https://fmriprep.org/en/stable/): I learned how to execute fmriprep and what is the output after the execution
 4) [Nilearn](https://nilearn.github.io/stable/index.html): I learned how to use nilearn on jupiter notebook to visualize data and examine the contrast of high vs low calorie food cues in a one participant's run.
-![](results/GLM-1stLevel-EffectOfInterest-Images.jpg)
-![](results/GLM-1stLevel-contrastHighVSLowCal.jpg)
+![](results/GLM-1stLevel-EffectOfInterest-Images.JPG)
+![](results/GLM-1stLevel-contrastHighVSLowCal.JPG)
 6) [Alliance Canada](https://alliancecan.ca/fr): I learned how to manage time, cpus, and memory to run a bash file
 7) [Github](https://github.com/): Before this school, I had trouble using it. But now, I'm very glad to know how to use it and how it could help me to produce reproductible research.  
 
