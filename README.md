@@ -78,7 +78,7 @@ The results of my project was mostly:
 4) Use Nilearn from jupiter notebook to visualize contrast for high vs low calorie food cues.
 
 ### Next steps
-For this project, I'll have to convert all my dataset into a BIDS format and execute fmriprep on my Nifti files using Alliance Canada. Then, I would be able to go further in my analysis. 
+For this project, I'll have to convert all my dataset into a BIDS format and execute fmriprep on my Nifti files using Alliance Canada. Then, I would be able to go further in my analysis, such as 2nd and 3rd level general linear model. 
 
 ## Conclusion and acknowledgement
 First, I was a bit disappointed not to have gone far in analyzing my data. But I realized that thanks to this school, I finally have the necessary notions to standardize my data and to proceed with the analysis of my data. I have learned more than if I had simply worked on analyses in Nilearn.  
