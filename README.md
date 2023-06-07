@@ -80,13 +80,12 @@ The results of my project was mostly:
 ### Next steps
 For this project, I'll have to convert all my dataset into a BIDS format and execute fmriprep on my Nifti files using Alliance Canada. Then, I would be able to go further in my analysis. 
 
-### Conclusion
+## Conclusion and acknowledgement
 First, I was a bit disappointed not to have gone far in analyzing my data. But I realized that thanks to this school, I finally have the necessary notions to standardize my data and to proceed with the analysis of my data. I have learned more than if I had simply worked on analyses in Nilearn.  
 
-### Acknowledgement
 I would like to thanks all the Brainhack School organizators and all the crew. Mostly, thanks for this awesome opportunity!
 
-### References
+## References
 Carnell S, Gibson C, Benson L, Ochner CN, Geliebter A. Neuroimaging and obesity: current knowledge and future directions. Obes Rev. 2012 Jan;13(1):43-56. doi: 10.1111/j.1467-789X.2011.00927.x. Epub 2011 Sep 8. PMID: 21902800; PMCID: PMC3241905.
 
 Harding IH, Andrews ZB, Mata F, Orlandea S, Martínez-Zalacaín I, Soriano-Mas C, Stice E, Verdejo-Garcia A. Brain substrates of unhealthy versus healthy food choices: influence of homeostatic status and body mass index. Int J Obes (Lond). 2018 Mar;42(3):448-454. doi: 10.1038/ijo.2017.237. Epub 2017 Sep 25. PMID: 29064475.
