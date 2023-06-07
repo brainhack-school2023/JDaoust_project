@@ -66,8 +66,8 @@ First, this project involved correcting the format of my dataset. I had to conve
 The results of my project was mostly:
 1) BIDS transformation of one participant's file to better use standardized pipeline;
 2) Use fmriprep to had clean preprocessed data for one participant;
-3) Create Alliance Canada scripts that could be share to all members of my lab
-4) Use nilearn from jupiter notebook to visualize contrast for high vs low calorie food cues
+3) Create Alliance Canada scripts that could be share to all members of my lab;
+4) Use nilearn from jupiter notebook to visualize contrast for high vs low calorie food cues.
 
 ### Next steps
 For this project, I'll have to convert all my dataset into a BIDS format and execute fmriprep on my Nifti files using Alliance Canada. Then, I would be able to go further in my analysis. 
