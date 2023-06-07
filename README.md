@@ -42,6 +42,8 @@ This project will use:
 ### Data
 The dataset was collected from 2016 to now at Quebec Heart and Lungs Institute. Ninety-four participants with severe obesity scheduled to undergo bariatric surgery were recruited. Participants were scanned prior to, 4, 12 and 24 months after bariatric surgery. For this project, a T1 and three fMRI runs with Becker-DeGroot-Marsharck auction task (duration: 10 minutes 27 seconds) will be used. Forty-five randomized images (15 high-sweet, 15 high-salt and 15 low caloric density) were presented to participants for 4 seconds. Participant must bid between 0 to 5$ for each snacks in the next 4s. The auction part will not be evaluated in this project.
 
+![](data/raw/Paradigm.png)
+
 ### Project deliverables 
 At the end of this project, I will have:
 1) Python scripts to analyse brain food cue reactivity;
