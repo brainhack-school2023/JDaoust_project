@@ -6,13 +6,13 @@ Description: Longitudinal dataset (4 visits: baseline and 4, 12 and 24 months af
 
 Study date:   
   - 2016: initial recrutment;
-  - 2013: Still collecting data.
+  - 2023: Still collecting data.
 
 Known Issues
 ------------
-Problem with the convertion of dicom into nifti with dcm2niix (convert in 3D instead of 4D)
+Issue with the convertion of the Dicom files into Nifti files with dcm2niix (convert in 3D instead of 4D)
 
 
 Where to discuss the dataset
 ----------------------------
-The protocole and the dataset were also describe in https://pubmed.ncbi.nlm.nih.gov/32145436/ and https://pubmed.ncbi.nlm.nih.gov/35760293/  
+The protocole and the dataset were also describe in [Michaud et al. 2020 Neuroimage](https://pubmed.ncbi.nlm.nih.gov/32145436/) and [Zeighami et al. 2022 Neuroimage](https://pubmed.ncbi.nlm.nih.gov/35760293/)  
