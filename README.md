@@ -54,17 +54,21 @@ At the end of this project, I will have:
 ## Results
 ---
 ### Progress overview
-First, this project involved correcting the format of my dataset. I had to convert it to BIDS format and preprocess the Nifti files with fmriprep. These steps took longer than expected. So far, only one participant's files have been converted to BIDS format and preprocessed. However, I was able to run my first-level general linear model on this participant and analyze the contrast between high-calorie and low-calorie snacks. 
+First, this project involved correcting the format of my dataset. I had to convert it to BIDS format and preprocess the Nifti files with fmriprep. These steps took longer than expected. So far, only one participant's files have been converted to BIDS format and preprocessed. However, I was able to run my first-level general linear model on this participant to present: 1) BOLD activity when participant saw images (effect of interest) and 2) BOLD contrast between high vs low calorie snacks.
+
+##### Figure 1. BOLD activity when images are shown (for run #1 of this participant)
+![](results/GLM-1stLevel-EffectOfInterest-Images.JPG)
+
+##### Figure 2. BOLD activity contrast between high vs low calorie snacks (for run #1 of this participant)
+![](results/GLM-1stLevel-contrastHighVSLowCal.JPG)
 
 ### Tools I learned during this project
 1) [dcm2niix](https://github.com/rordenlab/dcm2niix): I learned how to convert dicom data to nifti and what I must check to validate that the convertion went well
 2) [BIDS-validator](https://bids-standard.github.io/bids-validator/): I learned how to standardize a dataset to a BIDS dataset format
 3) [fmriprep](https://fmriprep.org/en/stable/): I learned how to execute fmriprep and what is the output after the execution
 4) [Nilearn](https://nilearn.github.io/stable/index.html): I learned how to use nilearn on jupiter notebook to visualize data and examine the contrast of high vs low calorie food cues in a one participant's run.
-![](results/GLM-1stLevel-EffectOfInterest-Images.JPG)
-![](results/GLM-1stLevel-contrastHighVSLowCal.JPG)
-6) [Alliance Canada](https://alliancecan.ca/fr): I learned how to manage time, cpus, and memory to run a bash file
-7) [Github](https://github.com/): Before this school, I had trouble using it. But now, I'm very glad to know how to use it and how it could help me to produce reproductible research.  
+5) [Alliance Canada](https://alliancecan.ca/fr): I learned how to manage time, cpus, and memory to run a bash file
+6) [Github](https://github.com/): Before this school, I had trouble using it. But now, I'm very glad to know how to use it and how it could help me to produce reproductible research.  
 
 ### Deliverables
 The results of my project was mostly:
