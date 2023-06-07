@@ -4,9 +4,9 @@ Description: Longitudinal dataset (4 visits: baseline and 4, 12 and 24 months af
 
 ![](BDM.jpg)
 
-Study date:
-  -2016: initial recrutment;
-  -2013: Still collecting data.
+Study date:   
+  - 2016: initial recrutment;
+  - 2013: Still collecting data.
 
 Known Issues
 ------------
