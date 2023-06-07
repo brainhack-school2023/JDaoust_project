@@ -15,4 +15,4 @@ Issue with the convertion of the Dicom files into Nifti files with dcm2niix (con
 
 Where to discuss the dataset
 ----------------------------
-The protocole and the dataset were also describe in [Michaud et al. 2020 Neuroimage](https://pubmed.ncbi.nlm.nih.gov/32145436/) and [Zeighami et al. 2022 Neuroimage](https://pubmed.ncbi.nlm.nih.gov/35760293/)  
+The protocole and the dataset were also describe in ([Michaud et al. 2020 Neuroimage](https://pubmed.ncbi.nlm.nih.gov/32145436/)) and ([Zeighami et al. 2022 Neuroimage](https://pubmed.ncbi.nlm.nih.gov/35760293/))  
