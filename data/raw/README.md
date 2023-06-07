@@ -2,7 +2,7 @@ The raw data (in DICOM) were obtained with an MRI Philips 3T at Centre de recher
 
 Description: Longitudinal dataset (4 visits: baseline and 4, 12 and 24 months after weight loss induce by bariatric surgery) of which 3 runs fMRI with the [Becker-DeGroot-Marshack auction task](https://doi.org/10.1002/bs.3830090304) (~10min/run) were collected. The fMRI data of the 3 runs/session/participant were stock in a folder on Alliance Canada (folder's name example: RND050, RND050flw4, RND050flw12, RND050flw24, etc.)
 
-![](Paradigm.jpg)
+![](Paradigm.png)
 
 Study date:   
   - 2016: initial recrutment;
